@@ -1,0 +1,11 @@
+locality_id,locality_name,zone,population_density,avg_monthly_income,student_share_pct,office_worker_share_pct,residential_share_pct,tourism_score,competition_score
+1,Rajpur Road,Central,82,52000,12,32,42,85,88
+2,Jakhan,North,76,48000,15,28,45,78,80
+3,Clement Town,South,68,36000,28,18,38,45,55
+4,Prem Nagar,West,72,33000,32,16,36,35,48
+5,Ballupur,Central,85,45000,18,30,40,62,76
+6,Vasant Vihar,West,64,51000,10,35,48,40,52
+7,Patel Nagar,Central,88,37000,14,22,44,30,58
+8,Sahastradhara Road,East,60,47000,22,25,42,70,64
+9,Nehru Colony,Central,91,39000,16,28,46,38,70
+10,Race Course,Central,86,43000,12,30,43,55,73

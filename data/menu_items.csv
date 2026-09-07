@@ -1,0 +1,1165 @@
+item_id,restaurant_id,cuisine,item_name,category,price,veg_flag,prep_time_min,popularity_score
+I0001,R001,Biryani,Chicken Biryani,Main Course,231,Non-Veg,25,54
+I0002,R001,Biryani,Mutton Biryani,Main Course,308,Non-Veg,30,32
+I0003,R001,Biryani,Egg Biryani,Main Course,165,Non-Veg,22,73
+I0004,R001,Biryani,Paneer Biryani,Main Course,217,Veg,22,41
+I0005,R001,Biryani,Veg Biryani,Main Course,158,Veg,20,73
+I0006,R001,Biryani,Chicken 65,Starter,231,Non-Veg,18,78
+I0007,R001,Biryani,Raita,Side,56,Veg,5,86
+I0008,R001,Biryani,Biryani Combo,Combo,283,Non-Veg,28,76
+I0009,R002,Momos,Veg Momos,Main Course,111,Veg,10,37
+I0010,R002,Momos,Chicken Momos,Main Course,159,Non-Veg,12,99
+I0011,R002,Momos,Paneer Momos,Main Course,160,Veg,12,41
+I0012,R002,Momos,Fried Momos,Main Course,153,Veg,14,55
+I0013,R002,Momos,Chicken Fried Momos,Main Course,173,Non-Veg,15,55
+I0014,R002,Momos,Tandoori Momos,Main Course,164,Veg,15,39
+I0015,R002,Momos,Chilli Momos,Main Course,178,Veg,14,46
+I0016,R003,South Indian,Masala Dosa,Main Course,113,Veg,12,36
+I0017,R003,South Indian,Plain Dosa,Main Course,82,Veg,10,36
+I0018,R003,South Indian,Idli Sambar,Main Course,88,Veg,10,77
+I0019,R003,South Indian,Vada Sambar,Main Course,93,Veg,10,88
+I0020,R003,South Indian,Paneer Dosa,Main Course,170,Veg,14,68
+I0021,R003,South Indian,Uttapam,Main Course,122,Veg,12,88
+I0022,R003,South Indian,Filter Coffee,Beverage,78,Veg,5,46
+I0023,R004,Healthy,Veg Salad Bowl,Healthy,191,Veg,10,53
+I0024,R004,Healthy,Chicken Salad Bowl,Healthy,220,Non-Veg,12,89
+I0025,R004,Healthy,Paneer Bowl,Healthy,224,Veg,12,32
+I0026,R004,Healthy,Grilled Chicken Bowl,Healthy,279,Non-Veg,18,69
+I0027,R004,Healthy,Fruit Bowl,Healthy,152,Veg,8,68
+I0028,R004,Healthy,Protein Smoothie,Beverage,176,Veg,8,33
+I0029,R004,Healthy,Oats Bowl,Breakfast,154,Veg,10,54
+I0030,R005,Desserts,Gulab Jamun,Dessert,98,Veg,8,62
+I0031,R005,Desserts,Brownie,Dessert,157,Veg,10,71
+I0032,R005,Desserts,Chocolate Cake,Dessert,179,Veg,12,95
+I0033,R005,Desserts,Cheesecake,Dessert,199,Veg,15,71
+I0034,R005,Desserts,Ice Cream,Dessert,115,Veg,5,42
+I0035,R005,Desserts,Chocolate Mousse,Dessert,155,Veg,10,61
+I0036,R005,Desserts,Rasmalai,Dessert,136,Veg,8,68
+I0037,R006,Burgers,Veg Burger,Main Course,117,Veg,10,58
+I0038,R006,Burgers,Paneer Burger,Main Course,186,Veg,12,91
+I0039,R006,Burgers,Chicken Burger,Main Course,194,Non-Veg,12,86
+I0040,R006,Burgers,Cheese Burger,Main Course,188,Veg,12,39
+I0041,R006,Burgers,Double Chicken Burger,Main Course,240,Non-Veg,15,34
+I0042,R006,Burgers,French Fries,Side,119,Veg,8,78
+I0043,R006,Burgers,Peri Peri Fries,Side,121,Veg,8,43
+I0044,R007,North Indian,Butter Chicken,Main Course,273,Non-Veg,25,97
+I0045,R007,North Indian,Paneer Butter Masala,Main Course,237,Veg,20,66
+I0046,R007,North Indian,Dal Makhani,Main Course,164,Veg,18,94
+I0047,R007,North Indian,Chole Bhature,Main Course,180,Veg,15,44
+I0048,R007,North Indian,Kadhai Paneer,Main Course,209,Veg,20,97
+I0049,R007,North Indian,Chicken Tikka,Starter,229,Non-Veg,20,66
+I0050,R007,North Indian,Paneer Tikka,Starter,219,Veg,18,72
+I0051,R007,North Indian,Garlic Naan,Bread,73,Veg,8,68
+I0052,R007,North Indian,Jeera Rice,Rice,146,Veg,15,75
+I0053,R007,North Indian,Gulab Jamun,Dessert,95,Veg,8,91
+I0054,R008,Biryani,Chicken Biryani,Main Course,232,Non-Veg,25,54
+I0055,R008,Biryani,Mutton Biryani,Main Course,347,Non-Veg,30,33
+I0056,R008,Biryani,Egg Biryani,Main Course,172,Non-Veg,22,49
+I0057,R008,Biryani,Paneer Biryani,Main Course,211,Veg,22,83
+I0058,R008,Biryani,Veg Biryani,Main Course,168,Veg,20,86
+I0059,R008,Biryani,Chicken 65,Starter,201,Non-Veg,18,32
+I0060,R008,Biryani,Raita,Side,66,Veg,5,34
+I0061,R008,Biryani,Biryani Combo,Combo,256,Non-Veg,28,76
+I0062,R009,Cafe,Cold Coffee,Beverage,124,Veg,7,38
+I0063,R009,Cafe,Cappuccino,Beverage,136,Veg,6,90
+I0064,R009,Cafe,Masala Tea,Beverage,68,Veg,5,64
+I0065,R009,Cafe,Veg Sandwich,Snack,153,Veg,10,91
+I0066,R009,Cafe,Paneer Sandwich,Snack,195,Veg,12,32
+I0067,R009,Cafe,Cheese Sandwich,Snack,177,Veg,10,42
+I0068,R009,Cafe,Chocolate Brownie,Dessert,143,Veg,10,97
+I0069,R009,Cafe,Pasta,Main Course,209,Veg,15,40
+I0070,R010,Healthy,Veg Salad Bowl,Healthy,201,Veg,10,96
+I0071,R010,Healthy,Chicken Salad Bowl,Healthy,223,Non-Veg,12,58
+I0072,R010,Healthy,Paneer Bowl,Healthy,247,Veg,12,54
+I0073,R010,Healthy,Grilled Chicken Bowl,Healthy,289,Non-Veg,18,71
+I0074,R010,Healthy,Fruit Bowl,Healthy,165,Veg,8,69
+I0075,R010,Healthy,Protein Smoothie,Beverage,204,Veg,8,40
+I0076,R010,Healthy,Oats Bowl,Breakfast,129,Veg,10,67
+I0077,R011,South Indian,Masala Dosa,Main Course,116,Veg,12,34
+I0078,R011,South Indian,Plain Dosa,Main Course,82,Veg,10,47
+I0079,R011,South Indian,Idli Sambar,Main Course,83,Veg,10,89
+I0080,R011,South Indian,Vada Sambar,Main Course,93,Veg,10,57
+I0081,R011,South Indian,Paneer Dosa,Main Course,138,Veg,14,69
+I0082,R011,South Indian,Uttapam,Main Course,134,Veg,12,91
+I0083,R011,South Indian,Filter Coffee,Beverage,73,Veg,5,87
+I0084,R012,Healthy,Veg Salad Bowl,Healthy,188,Veg,10,69
+I0085,R012,Healthy,Chicken Salad Bowl,Healthy,246,Non-Veg,12,62
+I0086,R012,Healthy,Paneer Bowl,Healthy,246,Veg,12,48
+I0087,R012,Healthy,Grilled Chicken Bowl,Healthy,290,Non-Veg,18,88
+I0088,R012,Healthy,Fruit Bowl,Healthy,168,Veg,8,70
+I0089,R012,Healthy,Protein Smoothie,Beverage,177,Veg,8,74
+I0090,R012,Healthy,Oats Bowl,Breakfast,150,Veg,10,71
+I0091,R013,Desserts,Gulab Jamun,Dessert,83,Veg,8,56
+I0092,R013,Desserts,Brownie,Dessert,152,Veg,10,36
+I0093,R013,Desserts,Chocolate Cake,Dessert,179,Veg,12,74
+I0094,R013,Desserts,Cheesecake,Dessert,246,Veg,15,60
+I0095,R013,Desserts,Ice Cream,Dessert,111,Veg,5,39
+I0096,R013,Desserts,Chocolate Mousse,Dessert,166,Veg,10,82
+I0097,R013,Desserts,Rasmalai,Dessert,130,Veg,8,60
+I0098,R014,Pizza,Margherita Pizza,Main Course,198,Veg,15,31
+I0099,R014,Pizza,Farmhouse Pizza,Main Course,355,Veg,18,41
+I0100,R014,Pizza,Paneer Pizza,Main Course,270,Veg,18,42
+I0101,R014,Pizza,Chicken Pizza,Main Course,369,Non-Veg,20,46
+I0102,R014,Pizza,Pepperoni Pizza,Main Course,353,Non-Veg,20,89
+I0103,R014,Pizza,Garlic Bread,Side,126,Veg,10,64
+I0104,R014,Pizza,Cheese Burst Pizza,Main Course,336,Veg,20,59
+I0105,R015,North Indian,Butter Chicken,Main Course,253,Non-Veg,25,92
+I0106,R015,North Indian,Paneer Butter Masala,Main Course,220,Veg,20,66
+I0107,R015,North Indian,Dal Makhani,Main Course,167,Veg,18,97
+I0108,R015,North Indian,Chole Bhature,Main Course,151,Veg,15,97
+I0109,R015,North Indian,Kadhai Paneer,Main Course,205,Veg,20,46
+I0110,R015,North Indian,Chicken Tikka,Starter,262,Non-Veg,20,46
+I0111,R015,North Indian,Paneer Tikka,Starter,209,Veg,18,94
+I0112,R015,North Indian,Garlic Naan,Bread,64,Veg,8,79
+I0113,R015,North Indian,Jeera Rice,Rice,149,Veg,15,76
+I0114,R015,North Indian,Gulab Jamun,Dessert,103,Veg,8,65
+I0115,R016,North Indian,Butter Chicken,Main Course,297,Non-Veg,25,81
+I0116,R016,North Indian,Paneer Butter Masala,Main Course,240,Veg,20,36
+I0117,R016,North Indian,Dal Makhani,Main Course,165,Veg,18,62
+I0118,R016,North Indian,Chole Bhature,Main Course,157,Veg,15,61
+I0119,R016,North Indian,Kadhai Paneer,Main Course,229,Veg,20,87
+I0120,R016,North Indian,Chicken Tikka,Starter,216,Non-Veg,20,75
+I0121,R016,North Indian,Paneer Tikka,Starter,203,Veg,18,33
+I0122,R016,North Indian,Garlic Naan,Bread,70,Veg,8,42
+I0123,R016,North Indian,Jeera Rice,Rice,145,Veg,15,44
+I0124,R016,North Indian,Gulab Jamun,Dessert,99,Veg,8,58
+I0125,R017,Cafe,Cold Coffee,Beverage,127,Veg,7,61
+I0126,R017,Cafe,Cappuccino,Beverage,110,Veg,6,51
+I0127,R017,Cafe,Masala Tea,Beverage,65,Veg,5,96
+I0128,R017,Cafe,Veg Sandwich,Snack,159,Veg,10,85
+I0129,R017,Cafe,Paneer Sandwich,Snack,171,Veg,12,50
+I0130,R017,Cafe,Cheese Sandwich,Snack,180,Veg,10,88
+I0131,R017,Cafe,Chocolate Brownie,Dessert,171,Veg,10,48
+I0132,R017,Cafe,Pasta,Main Course,194,Veg,15,32
+I0133,R018,Pizza,Margherita Pizza,Main Course,215,Veg,15,87
+I0134,R018,Pizza,Farmhouse Pizza,Main Course,360,Veg,18,44
+I0135,R018,Pizza,Paneer Pizza,Main Course,326,Veg,18,64
+I0136,R018,Pizza,Chicken Pizza,Main Course,318,Non-Veg,20,54
+I0137,R018,Pizza,Pepperoni Pizza,Main Course,410,Non-Veg,20,47
+I0138,R018,Pizza,Garlic Bread,Side,156,Veg,10,56
+I0139,R018,Pizza,Cheese Burst Pizza,Main Course,411,Veg,20,75
+I0140,R019,Momos,Veg Momos,Main Course,114,Veg,10,82
+I0141,R019,Momos,Chicken Momos,Main Course,141,Non-Veg,12,56
+I0142,R019,Momos,Paneer Momos,Main Course,156,Veg,12,100
+I0143,R019,Momos,Fried Momos,Main Course,169,Veg,14,93
+I0144,R019,Momos,Chicken Fried Momos,Main Course,185,Non-Veg,15,53
+I0145,R019,Momos,Tandoori Momos,Main Course,203,Veg,15,32
+I0146,R019,Momos,Chilli Momos,Main Course,161,Veg,14,44
+I0147,R020,Chinese,Veg Hakka Noodles,Main Course,163,Veg,15,100
+I0148,R020,Chinese,Chicken Hakka Noodles,Main Course,196,Non-Veg,18,38
+I0149,R020,Chinese,Veg Fried Rice,Main Course,143,Veg,15,89
+I0150,R020,Chinese,Chicken Fried Rice,Main Course,183,Non-Veg,18,31
+I0151,R020,Chinese,Chilli Paneer,Starter,209,Veg,15,40
+I0152,R020,Chinese,Chilli Chicken,Starter,252,Non-Veg,18,50
+I0153,R020,Chinese,Manchurian,Starter,156,Veg,15,93
+I0154,R020,Chinese,Spring Rolls,Starter,130,Veg,12,67
+I0155,R021,Biryani,Chicken Biryani,Main Course,214,Non-Veg,25,74
+I0156,R021,Biryani,Mutton Biryani,Main Course,349,Non-Veg,30,70
+I0157,R021,Biryani,Egg Biryani,Main Course,164,Non-Veg,22,80
+I0158,R021,Biryani,Paneer Biryani,Main Course,176,Veg,22,46
+I0159,R021,Biryani,Veg Biryani,Main Course,148,Veg,20,75
+I0160,R021,Biryani,Chicken 65,Starter,196,Non-Veg,18,83
+I0161,R021,Biryani,Raita,Side,63,Veg,5,49
+I0162,R021,Biryani,Biryani Combo,Combo,276,Non-Veg,28,69
+I0163,R022,North Indian,Butter Chicken,Main Course,253,Non-Veg,25,31
+I0164,R022,North Indian,Paneer Butter Masala,Main Course,227,Veg,20,59
+I0165,R022,North Indian,Dal Makhani,Main Course,163,Veg,18,55
+I0166,R022,North Indian,Chole Bhature,Main Course,160,Veg,15,95
+I0167,R022,North Indian,Kadhai Paneer,Main Course,240,Veg,20,75
+I0168,R022,North Indian,Chicken Tikka,Starter,258,Non-Veg,20,44
+I0169,R022,North Indian,Paneer Tikka,Starter,190,Veg,18,73
+I0170,R022,North Indian,Garlic Naan,Bread,65,Veg,8,90
+I0171,R022,North Indian,Jeera Rice,Rice,140,Veg,15,35
+I0172,R022,North Indian,Gulab Jamun,Dessert,94,Veg,8,61
+I0173,R023,Burgers,Veg Burger,Main Course,127,Veg,10,37
+I0174,R023,Burgers,Paneer Burger,Main Course,193,Veg,12,91
+I0175,R023,Burgers,Chicken Burger,Main Course,208,Non-Veg,12,36
+I0176,R023,Burgers,Cheese Burger,Main Course,192,Veg,12,33
+I0177,R023,Burgers,Double Chicken Burger,Main Course,273,Non-Veg,15,51
+I0178,R023,Burgers,French Fries,Side,111,Veg,8,32
+I0179,R023,Burgers,Peri Peri Fries,Side,118,Veg,8,89
+I0180,R024,North Indian,Butter Chicken,Main Course,303,Non-Veg,25,41
+I0181,R024,North Indian,Paneer Butter Masala,Main Course,212,Veg,20,42
+I0182,R024,North Indian,Dal Makhani,Main Course,184,Veg,18,48
+I0183,R024,North Indian,Chole Bhature,Main Course,183,Veg,15,74
+I0184,R024,North Indian,Kadhai Paneer,Main Course,199,Veg,20,82
+I0185,R024,North Indian,Chicken Tikka,Starter,256,Non-Veg,20,80
+I0186,R024,North Indian,Paneer Tikka,Starter,188,Veg,18,99
+I0187,R024,North Indian,Garlic Naan,Bread,76,Veg,8,51
+I0188,R024,North Indian,Jeera Rice,Rice,128,Veg,15,85
+I0189,R024,North Indian,Gulab Jamun,Dessert,103,Veg,8,32
+I0190,R025,Healthy,Veg Salad Bowl,Healthy,166,Veg,10,64
+I0191,R025,Healthy,Chicken Salad Bowl,Healthy,220,Non-Veg,12,83
+I0192,R025,Healthy,Paneer Bowl,Healthy,200,Veg,12,36
+I0193,R025,Healthy,Grilled Chicken Bowl,Healthy,264,Non-Veg,18,60
+I0194,R025,Healthy,Fruit Bowl,Healthy,151,Veg,8,53
+I0195,R025,Healthy,Protein Smoothie,Beverage,181,Veg,8,33
+I0196,R025,Healthy,Oats Bowl,Breakfast,152,Veg,10,49
+I0197,R026,North Indian,Butter Chicken,Main Course,287,Non-Veg,25,79
+I0198,R026,North Indian,Paneer Butter Masala,Main Course,246,Veg,20,65
+I0199,R026,North Indian,Dal Makhani,Main Course,163,Veg,18,95
+I0200,R026,North Indian,Chole Bhature,Main Course,168,Veg,15,65
+I0201,R026,North Indian,Kadhai Paneer,Main Course,211,Veg,20,71
+I0202,R026,North Indian,Chicken Tikka,Starter,276,Non-Veg,20,87
+I0203,R026,North Indian,Paneer Tikka,Starter,226,Veg,18,41
+I0204,R026,North Indian,Garlic Naan,Bread,70,Veg,8,47
+I0205,R026,North Indian,Jeera Rice,Rice,138,Veg,15,44
+I0206,R026,North Indian,Gulab Jamun,Dessert,86,Veg,8,55
+I0207,R027,North Indian,Butter Chicken,Main Course,302,Non-Veg,25,71
+I0208,R027,North Indian,Paneer Butter Masala,Main Course,211,Veg,20,31
+I0209,R027,North Indian,Dal Makhani,Main Course,170,Veg,18,98
+I0210,R027,North Indian,Chole Bhature,Main Course,147,Veg,15,70
+I0211,R027,North Indian,Kadhai Paneer,Main Course,202,Veg,20,89
+I0212,R027,North Indian,Chicken Tikka,Starter,240,Non-Veg,20,43
+I0213,R027,North Indian,Paneer Tikka,Starter,206,Veg,18,31
+I0214,R027,North Indian,Garlic Naan,Bread,65,Veg,8,46
+I0215,R027,North Indian,Jeera Rice,Rice,130,Veg,15,57
+I0216,R027,North Indian,Gulab Jamun,Dessert,87,Veg,8,34
+I0217,R028,Chinese,Veg Hakka Noodles,Main Course,157,Veg,15,69
+I0218,R028,Chinese,Chicken Hakka Noodles,Main Course,220,Non-Veg,18,65
+I0219,R028,Chinese,Veg Fried Rice,Main Course,171,Veg,15,76
+I0220,R028,Chinese,Chicken Fried Rice,Main Course,192,Non-Veg,18,39
+I0221,R028,Chinese,Chilli Paneer,Starter,174,Veg,15,43
+I0222,R028,Chinese,Chilli Chicken,Starter,216,Non-Veg,18,39
+I0223,R028,Chinese,Manchurian,Starter,181,Veg,15,30
+I0224,R028,Chinese,Spring Rolls,Starter,132,Veg,12,37
+I0225,R029,Chinese,Veg Hakka Noodles,Main Course,169,Veg,15,30
+I0226,R029,Chinese,Chicken Hakka Noodles,Main Course,202,Non-Veg,18,57
+I0227,R029,Chinese,Veg Fried Rice,Main Course,136,Veg,15,66
+I0228,R029,Chinese,Chicken Fried Rice,Main Course,198,Non-Veg,18,66
+I0229,R029,Chinese,Chilli Paneer,Starter,208,Veg,15,73
+I0230,R029,Chinese,Chilli Chicken,Starter,223,Non-Veg,18,35
+I0231,R029,Chinese,Manchurian,Starter,162,Veg,15,90
+I0232,R029,Chinese,Spring Rolls,Starter,118,Veg,12,31
+I0233,R030,South Indian,Masala Dosa,Main Course,112,Veg,12,66
+I0234,R030,South Indian,Plain Dosa,Main Course,102,Veg,10,58
+I0235,R030,South Indian,Idli Sambar,Main Course,95,Veg,10,64
+I0236,R030,South Indian,Vada Sambar,Main Course,101,Veg,10,88
+I0237,R030,South Indian,Paneer Dosa,Main Course,147,Veg,14,80
+I0238,R030,South Indian,Uttapam,Main Course,109,Veg,12,49
+I0239,R030,South Indian,Filter Coffee,Beverage,80,Veg,5,72
+I0240,R031,Momos,Veg Momos,Main Course,109,Veg,10,79
+I0241,R031,Momos,Chicken Momos,Main Course,171,Non-Veg,12,68
+I0242,R031,Momos,Paneer Momos,Main Course,142,Veg,12,72
+I0243,R031,Momos,Fried Momos,Main Course,164,Veg,14,73
+I0244,R031,Momos,Chicken Fried Momos,Main Course,196,Non-Veg,15,52
+I0245,R031,Momos,Tandoori Momos,Main Course,163,Veg,15,74
+I0246,R031,Momos,Chilli Momos,Main Course,159,Veg,14,79
+I0247,R032,Burgers,Veg Burger,Main Course,124,Veg,10,37
+I0248,R032,Burgers,Paneer Burger,Main Course,194,Veg,12,30
+I0249,R032,Burgers,Chicken Burger,Main Course,206,Non-Veg,12,58
+I0250,R032,Burgers,Cheese Burger,Main Course,182,Veg,12,34
+I0251,R032,Burgers,Double Chicken Burger,Main Course,297,Non-Veg,15,76
+I0252,R032,Burgers,French Fries,Side,118,Veg,8,84
+I0253,R032,Burgers,Peri Peri Fries,Side,149,Veg,8,72
+I0254,R033,North Indian,Butter Chicken,Main Course,300,Non-Veg,25,46
+I0255,R033,North Indian,Paneer Butter Masala,Main Course,244,Veg,20,76
+I0256,R033,North Indian,Dal Makhani,Main Course,188,Veg,18,75
+I0257,R033,North Indian,Chole Bhature,Main Course,181,Veg,15,30
+I0258,R033,North Indian,Kadhai Paneer,Main Course,200,Veg,20,43
+I0259,R033,North Indian,Chicken Tikka,Starter,240,Non-Veg,20,98
+I0260,R033,North Indian,Paneer Tikka,Starter,209,Veg,18,91
+I0261,R033,North Indian,Garlic Naan,Bread,75,Veg,8,93
+I0262,R033,North Indian,Jeera Rice,Rice,119,Veg,15,62
+I0263,R033,North Indian,Gulab Jamun,Dessert,90,Veg,8,77
+I0264,R034,North Indian,Butter Chicken,Main Course,305,Non-Veg,25,60
+I0265,R034,North Indian,Paneer Butter Masala,Main Course,239,Veg,20,97
+I0266,R034,North Indian,Dal Makhani,Main Course,191,Veg,18,33
+I0267,R034,North Indian,Chole Bhature,Main Course,171,Veg,15,99
+I0268,R034,North Indian,Kadhai Paneer,Main Course,236,Veg,20,42
+I0269,R034,North Indian,Chicken Tikka,Starter,264,Non-Veg,20,30
+I0270,R034,North Indian,Paneer Tikka,Starter,186,Veg,18,83
+I0271,R034,North Indian,Garlic Naan,Bread,74,Veg,8,44
+I0272,R034,North Indian,Jeera Rice,Rice,137,Veg,15,100
+I0273,R034,North Indian,Gulab Jamun,Dessert,94,Veg,8,48
+I0274,R035,Biryani,Chicken Biryani,Main Course,219,Non-Veg,25,62
+I0275,R035,Biryani,Mutton Biryani,Main Course,307,Non-Veg,30,64
+I0276,R035,Biryani,Egg Biryani,Main Course,172,Non-Veg,22,40
+I0277,R035,Biryani,Paneer Biryani,Main Course,200,Veg,22,95
+I0278,R035,Biryani,Veg Biryani,Main Course,163,Veg,20,32
+I0279,R035,Biryani,Chicken 65,Starter,217,Non-Veg,18,77
+I0280,R035,Biryani,Raita,Side,67,Veg,5,57
+I0281,R035,Biryani,Biryani Combo,Combo,254,Non-Veg,28,55
+I0282,R036,Chinese,Veg Hakka Noodles,Main Course,148,Veg,15,34
+I0283,R036,Chinese,Chicken Hakka Noodles,Main Course,210,Non-Veg,18,66
+I0284,R036,Chinese,Veg Fried Rice,Main Course,144,Veg,15,44
+I0285,R036,Chinese,Chicken Fried Rice,Main Course,200,Non-Veg,18,99
+I0286,R036,Chinese,Chilli Paneer,Starter,206,Veg,15,72
+I0287,R036,Chinese,Chilli Chicken,Starter,199,Non-Veg,18,52
+I0288,R036,Chinese,Manchurian,Starter,171,Veg,15,76
+I0289,R036,Chinese,Spring Rolls,Starter,119,Veg,12,44
+I0290,R037,Burgers,Veg Burger,Main Course,125,Veg,10,80
+I0291,R037,Burgers,Paneer Burger,Main Course,156,Veg,12,50
+I0292,R037,Burgers,Chicken Burger,Main Course,194,Non-Veg,12,48
+I0293,R037,Burgers,Cheese Burger,Main Course,167,Veg,12,97
+I0294,R037,Burgers,Double Chicken Burger,Main Course,251,Non-Veg,15,81
+I0295,R037,Burgers,French Fries,Side,117,Veg,8,58
+I0296,R037,Burgers,Peri Peri Fries,Side,143,Veg,8,64
+I0297,R038,Cafe,Cold Coffee,Beverage,136,Veg,7,65
+I0298,R038,Cafe,Cappuccino,Beverage,130,Veg,6,31
+I0299,R038,Cafe,Masala Tea,Beverage,68,Veg,5,33
+I0300,R038,Cafe,Veg Sandwich,Snack,155,Veg,10,36
+I0301,R038,Cafe,Paneer Sandwich,Snack,182,Veg,12,68
+I0302,R038,Cafe,Cheese Sandwich,Snack,165,Veg,10,100
+I0303,R038,Cafe,Chocolate Brownie,Dessert,146,Veg,10,71
+I0304,R038,Cafe,Pasta,Main Course,189,Veg,15,85
+I0305,R039,South Indian,Masala Dosa,Main Course,137,Veg,12,97
+I0306,R039,South Indian,Plain Dosa,Main Course,83,Veg,10,83
+I0307,R039,South Indian,Idli Sambar,Main Course,93,Veg,10,74
+I0308,R039,South Indian,Vada Sambar,Main Course,106,Veg,10,42
+I0309,R039,South Indian,Paneer Dosa,Main Course,158,Veg,14,50
+I0310,R039,South Indian,Uttapam,Main Course,135,Veg,12,38
+I0311,R039,South Indian,Filter Coffee,Beverage,77,Veg,5,44
+I0312,R040,Momos,Veg Momos,Main Course,126,Veg,10,71
+I0313,R040,Momos,Chicken Momos,Main Course,169,Non-Veg,12,78
+I0314,R040,Momos,Paneer Momos,Main Course,134,Veg,12,66
+I0315,R040,Momos,Fried Momos,Main Course,156,Veg,14,53
+I0316,R040,Momos,Chicken Fried Momos,Main Course,210,Non-Veg,15,89
+I0317,R040,Momos,Tandoori Momos,Main Course,192,Veg,15,47
+I0318,R040,Momos,Chilli Momos,Main Course,186,Veg,14,84
+I0319,R041,Pizza,Margherita Pizza,Main Course,230,Veg,15,76
+I0320,R041,Pizza,Farmhouse Pizza,Main Course,307,Veg,18,62
+I0321,R041,Pizza,Paneer Pizza,Main Course,286,Veg,18,51
+I0322,R041,Pizza,Chicken Pizza,Main Course,317,Non-Veg,20,44
+I0323,R041,Pizza,Pepperoni Pizza,Main Course,364,Non-Veg,20,100
+I0324,R041,Pizza,Garlic Bread,Side,145,Veg,10,39
+I0325,R041,Pizza,Cheese Burst Pizza,Main Course,347,Veg,20,86
+I0326,R042,Momos,Veg Momos,Main Course,123,Veg,10,31
+I0327,R042,Momos,Chicken Momos,Main Course,145,Non-Veg,12,36
+I0328,R042,Momos,Paneer Momos,Main Course,150,Veg,12,96
+I0329,R042,Momos,Fried Momos,Main Course,162,Veg,14,68
+I0330,R042,Momos,Chicken Fried Momos,Main Course,205,Non-Veg,15,53
+I0331,R042,Momos,Tandoori Momos,Main Course,168,Veg,15,48
+I0332,R042,Momos,Chilli Momos,Main Course,179,Veg,14,71
+I0333,R043,Healthy,Veg Salad Bowl,Healthy,203,Veg,10,65
+I0334,R043,Healthy,Chicken Salad Bowl,Healthy,212,Non-Veg,12,65
+I0335,R043,Healthy,Paneer Bowl,Healthy,209,Veg,12,37
+I0336,R043,Healthy,Grilled Chicken Bowl,Healthy,258,Non-Veg,18,99
+I0337,R043,Healthy,Fruit Bowl,Healthy,148,Veg,8,97
+I0338,R043,Healthy,Protein Smoothie,Beverage,182,Veg,8,89
+I0339,R043,Healthy,Oats Bowl,Breakfast,128,Veg,10,34
+I0340,R044,North Indian,Butter Chicken,Main Course,257,Non-Veg,25,61
+I0341,R044,North Indian,Paneer Butter Masala,Main Course,228,Veg,20,79
+I0342,R044,North Indian,Dal Makhani,Main Course,193,Veg,18,73
+I0343,R044,North Indian,Chole Bhature,Main Course,157,Veg,15,32
+I0344,R044,North Indian,Kadhai Paneer,Main Course,199,Veg,20,31
+I0345,R044,North Indian,Chicken Tikka,Starter,276,Non-Veg,20,31
+I0346,R044,North Indian,Paneer Tikka,Starter,198,Veg,18,64
+I0347,R044,North Indian,Garlic Naan,Bread,76,Veg,8,59
+I0348,R044,North Indian,Jeera Rice,Rice,128,Veg,15,51
+I0349,R044,North Indian,Gulab Jamun,Dessert,94,Veg,8,65
+I0350,R045,South Indian,Masala Dosa,Main Course,137,Veg,12,60
+I0351,R045,South Indian,Plain Dosa,Main Course,98,Veg,10,84
+I0352,R045,South Indian,Idli Sambar,Main Course,93,Veg,10,91
+I0353,R045,South Indian,Vada Sambar,Main Course,101,Veg,10,84
+I0354,R045,South Indian,Paneer Dosa,Main Course,163,Veg,14,46
+I0355,R045,South Indian,Uttapam,Main Course,117,Veg,12,37
+I0356,R045,South Indian,Filter Coffee,Beverage,77,Veg,5,45
+I0357,R046,Healthy,Veg Salad Bowl,Healthy,179,Veg,10,52
+I0358,R046,Healthy,Chicken Salad Bowl,Healthy,230,Non-Veg,12,34
+I0359,R046,Healthy,Paneer Bowl,Healthy,239,Veg,12,94
+I0360,R046,Healthy,Grilled Chicken Bowl,Healthy,289,Non-Veg,18,50
+I0361,R046,Healthy,Fruit Bowl,Healthy,138,Veg,8,51
+I0362,R046,Healthy,Protein Smoothie,Beverage,166,Veg,8,61
+I0363,R046,Healthy,Oats Bowl,Breakfast,130,Veg,10,45
+I0364,R047,Burgers,Veg Burger,Main Course,133,Veg,10,43
+I0365,R047,Burgers,Paneer Burger,Main Course,158,Veg,12,52
+I0366,R047,Burgers,Chicken Burger,Main Course,183,Non-Veg,12,95
+I0367,R047,Burgers,Cheese Burger,Main Course,179,Veg,12,31
+I0368,R047,Burgers,Double Chicken Burger,Main Course,295,Non-Veg,15,94
+I0369,R047,Burgers,French Fries,Side,107,Veg,8,81
+I0370,R047,Burgers,Peri Peri Fries,Side,126,Veg,8,55
+I0371,R048,Pizza,Margherita Pizza,Main Course,231,Veg,15,84
+I0372,R048,Pizza,Farmhouse Pizza,Main Course,301,Veg,18,51
+I0373,R048,Pizza,Paneer Pizza,Main Course,307,Veg,18,89
+I0374,R048,Pizza,Chicken Pizza,Main Course,389,Non-Veg,20,41
+I0375,R048,Pizza,Pepperoni Pizza,Main Course,430,Non-Veg,20,71
+I0376,R048,Pizza,Garlic Bread,Side,145,Veg,10,74
+I0377,R048,Pizza,Cheese Burst Pizza,Main Course,358,Veg,20,59
+I0378,R049,Chinese,Veg Hakka Noodles,Main Course,173,Veg,15,96
+I0379,R049,Chinese,Chicken Hakka Noodles,Main Course,230,Non-Veg,18,81
+I0380,R049,Chinese,Veg Fried Rice,Main Course,166,Veg,15,44
+I0381,R049,Chinese,Chicken Fried Rice,Main Course,200,Non-Veg,18,95
+I0382,R049,Chinese,Chilli Paneer,Starter,178,Veg,15,64
+I0383,R049,Chinese,Chilli Chicken,Starter,217,Non-Veg,18,49
+I0384,R049,Chinese,Manchurian,Starter,177,Veg,15,39
+I0385,R049,Chinese,Spring Rolls,Starter,144,Veg,12,54
+I0386,R050,South Indian,Masala Dosa,Main Course,122,Veg,12,62
+I0387,R050,South Indian,Plain Dosa,Main Course,102,Veg,10,43
+I0388,R050,South Indian,Idli Sambar,Main Course,84,Veg,10,83
+I0389,R050,South Indian,Vada Sambar,Main Course,111,Veg,10,81
+I0390,R050,South Indian,Paneer Dosa,Main Course,154,Veg,14,70
+I0391,R050,South Indian,Uttapam,Main Course,133,Veg,12,42
+I0392,R050,South Indian,Filter Coffee,Beverage,69,Veg,5,37
+I0393,R051,South Indian,Masala Dosa,Main Course,122,Veg,12,97
+I0394,R051,South Indian,Plain Dosa,Main Course,84,Veg,10,97
+I0395,R051,South Indian,Idli Sambar,Main Course,83,Veg,10,41
+I0396,R051,South Indian,Vada Sambar,Main Course,114,Veg,10,42
+I0397,R051,South Indian,Paneer Dosa,Main Course,170,Veg,14,49
+I0398,R051,South Indian,Uttapam,Main Course,121,Veg,12,89
+I0399,R051,South Indian,Filter Coffee,Beverage,78,Veg,5,61
+I0400,R052,North Indian,Butter Chicken,Main Course,267,Non-Veg,25,31
+I0401,R052,North Indian,Paneer Butter Masala,Main Course,234,Veg,20,60
+I0402,R052,North Indian,Dal Makhani,Main Course,165,Veg,18,63
+I0403,R052,North Indian,Chole Bhature,Main Course,162,Veg,15,31
+I0404,R052,North Indian,Kadhai Paneer,Main Course,214,Veg,20,79
+I0405,R052,North Indian,Chicken Tikka,Starter,219,Non-Veg,20,85
+I0406,R052,North Indian,Paneer Tikka,Starter,195,Veg,18,38
+I0407,R052,North Indian,Garlic Naan,Bread,65,Veg,8,57
+I0408,R052,North Indian,Jeera Rice,Rice,127,Veg,15,36
+I0409,R052,North Indian,Gulab Jamun,Dessert,97,Veg,8,33
+I0410,R053,Desserts,Gulab Jamun,Dessert,95,Veg,8,69
+I0411,R053,Desserts,Brownie,Dessert,154,Veg,10,81
+I0412,R053,Desserts,Chocolate Cake,Dessert,151,Veg,12,65
+I0413,R053,Desserts,Cheesecake,Dessert,227,Veg,15,79
+I0414,R053,Desserts,Ice Cream,Dessert,93,Veg,5,92
+I0415,R053,Desserts,Chocolate Mousse,Dessert,152,Veg,10,36
+I0416,R053,Desserts,Rasmalai,Dessert,124,Veg,8,43
+I0417,R054,South Indian,Masala Dosa,Main Course,113,Veg,12,34
+I0418,R054,South Indian,Plain Dosa,Main Course,81,Veg,10,31
+I0419,R054,South Indian,Idli Sambar,Main Course,84,Veg,10,50
+I0420,R054,South Indian,Vada Sambar,Main Course,90,Veg,10,50
+I0421,R054,South Indian,Paneer Dosa,Main Course,164,Veg,14,87
+I0422,R054,South Indian,Uttapam,Main Course,114,Veg,12,34
+I0423,R054,South Indian,Filter Coffee,Beverage,67,Veg,5,82
+I0424,R055,Biryani,Chicken Biryani,Main Course,242,Non-Veg,25,74
+I0425,R055,Biryani,Mutton Biryani,Main Course,291,Non-Veg,30,89
+I0426,R055,Biryani,Egg Biryani,Main Course,191,Non-Veg,22,50
+I0427,R055,Biryani,Paneer Biryani,Main Course,211,Veg,22,84
+I0428,R055,Biryani,Veg Biryani,Main Course,150,Veg,20,97
+I0429,R055,Biryani,Chicken 65,Starter,234,Non-Veg,18,81
+I0430,R055,Biryani,Raita,Side,67,Veg,5,71
+I0431,R055,Biryani,Biryani Combo,Combo,307,Non-Veg,28,42
+I0432,R056,Pizza,Margherita Pizza,Main Course,205,Veg,15,93
+I0433,R056,Pizza,Farmhouse Pizza,Main Course,351,Veg,18,38
+I0434,R056,Pizza,Paneer Pizza,Main Course,341,Veg,18,31
+I0435,R056,Pizza,Chicken Pizza,Main Course,353,Non-Veg,20,58
+I0436,R056,Pizza,Pepperoni Pizza,Main Course,369,Non-Veg,20,87
+I0437,R056,Pizza,Garlic Bread,Side,135,Veg,10,50
+I0438,R056,Pizza,Cheese Burst Pizza,Main Course,398,Veg,20,63
+I0439,R057,Pizza,Margherita Pizza,Main Course,219,Veg,15,78
+I0440,R057,Pizza,Farmhouse Pizza,Main Course,337,Veg,18,89
+I0441,R057,Pizza,Paneer Pizza,Main Course,304,Veg,18,74
+I0442,R057,Pizza,Chicken Pizza,Main Course,328,Non-Veg,20,61
+I0443,R057,Pizza,Pepperoni Pizza,Main Course,436,Non-Veg,20,37
+I0444,R057,Pizza,Garlic Bread,Side,127,Veg,10,72
+I0445,R057,Pizza,Cheese Burst Pizza,Main Course,383,Veg,20,80
+I0446,R058,Biryani,Chicken Biryani,Main Course,202,Non-Veg,25,53
+I0447,R058,Biryani,Mutton Biryani,Main Course,291,Non-Veg,30,49
+I0448,R058,Biryani,Egg Biryani,Main Course,195,Non-Veg,22,87
+I0449,R058,Biryani,Paneer Biryani,Main Course,193,Veg,22,40
+I0450,R058,Biryani,Veg Biryani,Main Course,183,Veg,20,36
+I0451,R058,Biryani,Chicken 65,Starter,230,Non-Veg,18,80
+I0452,R058,Biryani,Raita,Side,57,Veg,5,34
+I0453,R058,Biryani,Biryani Combo,Combo,290,Non-Veg,28,37
+I0454,R059,Cafe,Cold Coffee,Beverage,126,Veg,7,67
+I0455,R059,Cafe,Cappuccino,Beverage,110,Veg,6,37
+I0456,R059,Cafe,Masala Tea,Beverage,76,Veg,5,54
+I0457,R059,Cafe,Veg Sandwich,Snack,160,Veg,10,79
+I0458,R059,Cafe,Paneer Sandwich,Snack,153,Veg,12,65
+I0459,R059,Cafe,Cheese Sandwich,Snack,169,Veg,10,70
+I0460,R059,Cafe,Chocolate Brownie,Dessert,171,Veg,10,91
+I0461,R059,Cafe,Pasta,Main Course,225,Veg,15,39
+I0462,R060,Biryani,Chicken Biryani,Main Course,242,Non-Veg,25,41
+I0463,R060,Biryani,Mutton Biryani,Main Course,326,Non-Veg,30,31
+I0464,R060,Biryani,Egg Biryani,Main Course,189,Non-Veg,22,82
+I0465,R060,Biryani,Paneer Biryani,Main Course,215,Veg,22,45
+I0466,R060,Biryani,Veg Biryani,Main Course,176,Veg,20,40
+I0467,R060,Biryani,Chicken 65,Starter,191,Non-Veg,18,46
+I0468,R060,Biryani,Raita,Side,68,Veg,5,84
+I0469,R060,Biryani,Biryani Combo,Combo,259,Non-Veg,28,88
+I0470,R061,Biryani,Chicken Biryani,Main Course,228,Non-Veg,25,51
+I0471,R061,Biryani,Mutton Biryani,Main Course,310,Non-Veg,30,73
+I0472,R061,Biryani,Egg Biryani,Main Course,171,Non-Veg,22,75
+I0473,R061,Biryani,Paneer Biryani,Main Course,172,Veg,22,50
+I0474,R061,Biryani,Veg Biryani,Main Course,155,Veg,20,61
+I0475,R061,Biryani,Chicken 65,Starter,206,Non-Veg,18,68
+I0476,R061,Biryani,Raita,Side,67,Veg,5,76
+I0477,R061,Biryani,Biryani Combo,Combo,270,Non-Veg,28,42
+I0478,R062,Pizza,Margherita Pizza,Main Course,210,Veg,15,37
+I0479,R062,Pizza,Farmhouse Pizza,Main Course,348,Veg,18,36
+I0480,R062,Pizza,Paneer Pizza,Main Course,284,Veg,18,51
+I0481,R062,Pizza,Chicken Pizza,Main Course,401,Non-Veg,20,51
+I0482,R062,Pizza,Pepperoni Pizza,Main Course,393,Non-Veg,20,42
+I0483,R062,Pizza,Garlic Bread,Side,132,Veg,10,58
+I0484,R062,Pizza,Cheese Burst Pizza,Main Course,386,Veg,20,81
+I0485,R063,Momos,Veg Momos,Main Course,133,Veg,10,52
+I0486,R063,Momos,Chicken Momos,Main Course,167,Non-Veg,12,51
+I0487,R063,Momos,Paneer Momos,Main Course,145,Veg,12,90
+I0488,R063,Momos,Fried Momos,Main Course,174,Veg,14,32
+I0489,R063,Momos,Chicken Fried Momos,Main Course,185,Non-Veg,15,48
+I0490,R063,Momos,Tandoori Momos,Main Course,169,Veg,15,59
+I0491,R063,Momos,Chilli Momos,Main Course,190,Veg,14,54
+I0492,R064,Pizza,Margherita Pizza,Main Course,240,Veg,15,37
+I0493,R064,Pizza,Farmhouse Pizza,Main Course,325,Veg,18,45
+I0494,R064,Pizza,Paneer Pizza,Main Course,331,Veg,18,34
+I0495,R064,Pizza,Chicken Pizza,Main Course,392,Non-Veg,20,33
+I0496,R064,Pizza,Pepperoni Pizza,Main Course,351,Non-Veg,20,93
+I0497,R064,Pizza,Garlic Bread,Side,154,Veg,10,39
+I0498,R064,Pizza,Cheese Burst Pizza,Main Course,391,Veg,20,75
+I0499,R065,Desserts,Gulab Jamun,Dessert,95,Veg,8,56
+I0500,R065,Desserts,Brownie,Dessert,150,Veg,10,42
+I0501,R065,Desserts,Chocolate Cake,Dessert,166,Veg,12,65
+I0502,R065,Desserts,Cheesecake,Dessert,198,Veg,15,87
+I0503,R065,Desserts,Ice Cream,Dessert,91,Veg,5,43
+I0504,R065,Desserts,Chocolate Mousse,Dessert,163,Veg,10,82
+I0505,R065,Desserts,Rasmalai,Dessert,119,Veg,8,45
+I0506,R066,North Indian,Butter Chicken,Main Course,262,Non-Veg,25,99
+I0507,R066,North Indian,Paneer Butter Masala,Main Course,246,Veg,20,87
+I0508,R066,North Indian,Dal Makhani,Main Course,179,Veg,18,33
+I0509,R066,North Indian,Chole Bhature,Main Course,173,Veg,15,53
+I0510,R066,North Indian,Kadhai Paneer,Main Course,200,Veg,20,55
+I0511,R066,North Indian,Chicken Tikka,Starter,239,Non-Veg,20,83
+I0512,R066,North Indian,Paneer Tikka,Starter,215,Veg,18,50
+I0513,R066,North Indian,Garlic Naan,Bread,64,Veg,8,75
+I0514,R066,North Indian,Jeera Rice,Rice,129,Veg,15,86
+I0515,R066,North Indian,Gulab Jamun,Dessert,90,Veg,8,46
+I0516,R067,Healthy,Veg Salad Bowl,Healthy,188,Veg,10,33
+I0517,R067,Healthy,Chicken Salad Bowl,Healthy,236,Non-Veg,12,32
+I0518,R067,Healthy,Paneer Bowl,Healthy,202,Veg,12,87
+I0519,R067,Healthy,Grilled Chicken Bowl,Healthy,270,Non-Veg,18,33
+I0520,R067,Healthy,Fruit Bowl,Healthy,137,Veg,8,53
+I0521,R067,Healthy,Protein Smoothie,Beverage,192,Veg,8,48
+I0522,R067,Healthy,Oats Bowl,Breakfast,135,Veg,10,89
+I0523,R068,Momos,Veg Momos,Main Course,118,Veg,10,92
+I0524,R068,Momos,Chicken Momos,Main Course,138,Non-Veg,12,51
+I0525,R068,Momos,Paneer Momos,Main Course,150,Veg,12,59
+I0526,R068,Momos,Fried Momos,Main Course,183,Veg,14,60
+I0527,R068,Momos,Chicken Fried Momos,Main Course,210,Non-Veg,15,48
+I0528,R068,Momos,Tandoori Momos,Main Course,182,Veg,15,84
+I0529,R068,Momos,Chilli Momos,Main Course,184,Veg,14,47
+I0530,R069,Chinese,Veg Hakka Noodles,Main Course,159,Veg,15,76
+I0531,R069,Chinese,Chicken Hakka Noodles,Main Course,241,Non-Veg,18,74
+I0532,R069,Chinese,Veg Fried Rice,Main Course,142,Veg,15,99
+I0533,R069,Chinese,Chicken Fried Rice,Main Course,212,Non-Veg,18,76
+I0534,R069,Chinese,Chilli Paneer,Starter,177,Veg,15,99
+I0535,R069,Chinese,Chilli Chicken,Starter,253,Non-Veg,18,38
+I0536,R069,Chinese,Manchurian,Starter,193,Veg,15,98
+I0537,R069,Chinese,Spring Rolls,Starter,123,Veg,12,90
+I0538,R070,Healthy,Veg Salad Bowl,Healthy,206,Veg,10,32
+I0539,R070,Healthy,Chicken Salad Bowl,Healthy,209,Non-Veg,12,99
+I0540,R070,Healthy,Paneer Bowl,Healthy,226,Veg,12,80
+I0541,R070,Healthy,Grilled Chicken Bowl,Healthy,295,Non-Veg,18,71
+I0542,R070,Healthy,Fruit Bowl,Healthy,167,Veg,8,55
+I0543,R070,Healthy,Protein Smoothie,Beverage,201,Veg,8,93
+I0544,R070,Healthy,Oats Bowl,Breakfast,133,Veg,10,78
+I0545,R071,North Indian,Butter Chicken,Main Course,282,Non-Veg,25,93
+I0546,R071,North Indian,Paneer Butter Masala,Main Course,225,Veg,20,99
+I0547,R071,North Indian,Dal Makhani,Main Course,190,Veg,18,68
+I0548,R071,North Indian,Chole Bhature,Main Course,164,Veg,15,30
+I0549,R071,North Indian,Kadhai Paneer,Main Course,230,Veg,20,99
+I0550,R071,North Indian,Chicken Tikka,Starter,219,Non-Veg,20,75
+I0551,R071,North Indian,Paneer Tikka,Starter,211,Veg,18,89
+I0552,R071,North Indian,Garlic Naan,Bread,70,Veg,8,53
+I0553,R071,North Indian,Jeera Rice,Rice,132,Veg,15,59
+I0554,R071,North Indian,Gulab Jamun,Dessert,87,Veg,8,59
+I0555,R072,Desserts,Gulab Jamun,Dessert,82,Veg,8,36
+I0556,R072,Desserts,Brownie,Dessert,135,Veg,10,43
+I0557,R072,Desserts,Chocolate Cake,Dessert,154,Veg,12,45
+I0558,R072,Desserts,Cheesecake,Dessert,240,Veg,15,99
+I0559,R072,Desserts,Ice Cream,Dessert,92,Veg,5,74
+I0560,R072,Desserts,Chocolate Mousse,Dessert,167,Veg,10,86
+I0561,R072,Desserts,Rasmalai,Dessert,118,Veg,8,79
+I0562,R073,Desserts,Gulab Jamun,Dessert,90,Veg,8,36
+I0563,R073,Desserts,Brownie,Dessert,129,Veg,10,44
+I0564,R073,Desserts,Chocolate Cake,Dessert,145,Veg,12,49
+I0565,R073,Desserts,Cheesecake,Dessert,205,Veg,15,77
+I0566,R073,Desserts,Ice Cream,Dessert,113,Veg,5,71
+I0567,R073,Desserts,Chocolate Mousse,Dessert,166,Veg,10,43
+I0568,R073,Desserts,Rasmalai,Dessert,130,Veg,8,87
+I0569,R074,Chinese,Veg Hakka Noodles,Main Course,183,Veg,15,98
+I0570,R074,Chinese,Chicken Hakka Noodles,Main Course,223,Non-Veg,18,66
+I0571,R074,Chinese,Veg Fried Rice,Main Course,156,Veg,15,48
+I0572,R074,Chinese,Chicken Fried Rice,Main Course,195,Non-Veg,18,41
+I0573,R074,Chinese,Chilli Paneer,Starter,188,Veg,15,70
+I0574,R074,Chinese,Chilli Chicken,Starter,199,Non-Veg,18,97
+I0575,R074,Chinese,Manchurian,Starter,171,Veg,15,100
+I0576,R074,Chinese,Spring Rolls,Starter,139,Veg,12,62
+I0577,R075,Momos,Veg Momos,Main Course,124,Veg,10,90
+I0578,R075,Momos,Chicken Momos,Main Course,144,Non-Veg,12,57
+I0579,R075,Momos,Paneer Momos,Main Course,151,Veg,12,70
+I0580,R075,Momos,Fried Momos,Main Course,176,Veg,14,78
+I0581,R075,Momos,Chicken Fried Momos,Main Course,197,Non-Veg,15,99
+I0582,R075,Momos,Tandoori Momos,Main Course,172,Veg,15,94
+I0583,R075,Momos,Chilli Momos,Main Course,171,Veg,14,34
+I0584,R076,Cafe,Cold Coffee,Beverage,148,Veg,7,86
+I0585,R076,Cafe,Cappuccino,Beverage,128,Veg,6,45
+I0586,R076,Cafe,Masala Tea,Beverage,70,Veg,5,68
+I0587,R076,Cafe,Veg Sandwich,Snack,145,Veg,10,69
+I0588,R076,Cafe,Paneer Sandwich,Snack,158,Veg,12,88
+I0589,R076,Cafe,Cheese Sandwich,Snack,162,Veg,10,93
+I0590,R076,Cafe,Chocolate Brownie,Dessert,165,Veg,10,78
+I0591,R076,Cafe,Pasta,Main Course,190,Veg,15,36
+I0592,R077,Biryani,Chicken Biryani,Main Course,246,Non-Veg,25,55
+I0593,R077,Biryani,Mutton Biryani,Main Course,314,Non-Veg,30,44
+I0594,R077,Biryani,Egg Biryani,Main Course,171,Non-Veg,22,43
+I0595,R077,Biryani,Paneer Biryani,Main Course,182,Veg,22,69
+I0596,R077,Biryani,Veg Biryani,Main Course,183,Veg,20,55
+I0597,R077,Biryani,Chicken 65,Starter,218,Non-Veg,18,95
+I0598,R077,Biryani,Raita,Side,55,Veg,5,32
+I0599,R077,Biryani,Biryani Combo,Combo,316,Non-Veg,28,71
+I0600,R078,Momos,Veg Momos,Main Course,123,Veg,10,35
+I0601,R078,Momos,Chicken Momos,Main Course,149,Non-Veg,12,52
+I0602,R078,Momos,Paneer Momos,Main Course,155,Veg,12,79
+I0603,R078,Momos,Fried Momos,Main Course,148,Veg,14,98
+I0604,R078,Momos,Chicken Fried Momos,Main Course,217,Non-Veg,15,41
+I0605,R078,Momos,Tandoori Momos,Main Course,186,Veg,15,53
+I0606,R078,Momos,Chilli Momos,Main Course,168,Veg,14,70
+I0607,R079,Cafe,Cold Coffee,Beverage,136,Veg,7,84
+I0608,R079,Cafe,Cappuccino,Beverage,127,Veg,6,44
+I0609,R079,Cafe,Masala Tea,Beverage,79,Veg,5,71
+I0610,R079,Cafe,Veg Sandwich,Snack,142,Veg,10,99
+I0611,R079,Cafe,Paneer Sandwich,Snack,187,Veg,12,36
+I0612,R079,Cafe,Cheese Sandwich,Snack,169,Veg,10,32
+I0613,R079,Cafe,Chocolate Brownie,Dessert,169,Veg,10,69
+I0614,R079,Cafe,Pasta,Main Course,205,Veg,15,30
+I0615,R080,Desserts,Gulab Jamun,Dessert,82,Veg,8,37
+I0616,R080,Desserts,Brownie,Dessert,157,Veg,10,77
+I0617,R080,Desserts,Chocolate Cake,Dessert,150,Veg,12,33
+I0618,R080,Desserts,Cheesecake,Dessert,242,Veg,15,48
+I0619,R080,Desserts,Ice Cream,Dessert,112,Veg,5,41
+I0620,R080,Desserts,Chocolate Mousse,Dessert,163,Veg,10,45
+I0621,R080,Desserts,Rasmalai,Dessert,138,Veg,8,50
+I0622,R081,Pizza,Margherita Pizza,Main Course,238,Veg,15,63
+I0623,R081,Pizza,Farmhouse Pizza,Main Course,301,Veg,18,88
+I0624,R081,Pizza,Paneer Pizza,Main Course,282,Veg,18,56
+I0625,R081,Pizza,Chicken Pizza,Main Course,375,Non-Veg,20,32
+I0626,R081,Pizza,Pepperoni Pizza,Main Course,392,Non-Veg,20,54
+I0627,R081,Pizza,Garlic Bread,Side,155,Veg,10,55
+I0628,R081,Pizza,Cheese Burst Pizza,Main Course,331,Veg,20,34
+I0629,R082,North Indian,Butter Chicken,Main Course,320,Non-Veg,25,38
+I0630,R082,North Indian,Paneer Butter Masala,Main Course,243,Veg,20,79
+I0631,R082,North Indian,Dal Makhani,Main Course,167,Veg,18,89
+I0632,R082,North Indian,Chole Bhature,Main Course,157,Veg,15,40
+I0633,R082,North Indian,Kadhai Paneer,Main Course,236,Veg,20,32
+I0634,R082,North Indian,Chicken Tikka,Starter,269,Non-Veg,20,59
+I0635,R082,North Indian,Paneer Tikka,Starter,189,Veg,18,50
+I0636,R082,North Indian,Garlic Naan,Bread,65,Veg,8,91
+I0637,R082,North Indian,Jeera Rice,Rice,140,Veg,15,64
+I0638,R082,North Indian,Gulab Jamun,Dessert,84,Veg,8,70
+I0639,R083,Chinese,Veg Hakka Noodles,Main Course,174,Veg,15,87
+I0640,R083,Chinese,Chicken Hakka Noodles,Main Course,221,Non-Veg,18,52
+I0641,R083,Chinese,Veg Fried Rice,Main Course,158,Veg,15,51
+I0642,R083,Chinese,Chicken Fried Rice,Main Course,217,Non-Veg,18,40
+I0643,R083,Chinese,Chilli Paneer,Starter,211,Veg,15,64
+I0644,R083,Chinese,Chilli Chicken,Starter,200,Non-Veg,18,45
+I0645,R083,Chinese,Manchurian,Starter,158,Veg,15,69
+I0646,R083,Chinese,Spring Rolls,Starter,117,Veg,12,76
+I0647,R084,North Indian,Butter Chicken,Main Course,264,Non-Veg,25,49
+I0648,R084,North Indian,Paneer Butter Masala,Main Course,210,Veg,20,92
+I0649,R084,North Indian,Dal Makhani,Main Course,177,Veg,18,87
+I0650,R084,North Indian,Chole Bhature,Main Course,165,Veg,15,67
+I0651,R084,North Indian,Kadhai Paneer,Main Course,208,Veg,20,50
+I0652,R084,North Indian,Chicken Tikka,Starter,218,Non-Veg,20,82
+I0653,R084,North Indian,Paneer Tikka,Starter,213,Veg,18,43
+I0654,R084,North Indian,Garlic Naan,Bread,79,Veg,8,46
+I0655,R084,North Indian,Jeera Rice,Rice,142,Veg,15,35
+I0656,R084,North Indian,Gulab Jamun,Dessert,96,Veg,8,52
+I0657,R085,Burgers,Veg Burger,Main Course,122,Veg,10,75
+I0658,R085,Burgers,Paneer Burger,Main Course,173,Veg,12,91
+I0659,R085,Burgers,Chicken Burger,Main Course,189,Non-Veg,12,59
+I0660,R085,Burgers,Cheese Burger,Main Course,198,Veg,12,54
+I0661,R085,Burgers,Double Chicken Burger,Main Course,261,Non-Veg,15,43
+I0662,R085,Burgers,French Fries,Side,124,Veg,8,51
+I0663,R085,Burgers,Peri Peri Fries,Side,145,Veg,8,80
+I0664,R086,Burgers,Veg Burger,Main Course,144,Veg,10,48
+I0665,R086,Burgers,Paneer Burger,Main Course,187,Veg,12,74
+I0666,R086,Burgers,Chicken Burger,Main Course,217,Non-Veg,12,92
+I0667,R086,Burgers,Cheese Burger,Main Course,187,Veg,12,48
+I0668,R086,Burgers,Double Chicken Burger,Main Course,291,Non-Veg,15,43
+I0669,R086,Burgers,French Fries,Side,105,Veg,8,82
+I0670,R086,Burgers,Peri Peri Fries,Side,135,Veg,8,69
+I0671,R087,Momos,Veg Momos,Main Course,116,Veg,10,38
+I0672,R087,Momos,Chicken Momos,Main Course,135,Non-Veg,12,81
+I0673,R087,Momos,Paneer Momos,Main Course,137,Veg,12,82
+I0674,R087,Momos,Fried Momos,Main Course,156,Veg,14,88
+I0675,R087,Momos,Chicken Fried Momos,Main Course,206,Non-Veg,15,70
+I0676,R087,Momos,Tandoori Momos,Main Course,164,Veg,15,97
+I0677,R087,Momos,Chilli Momos,Main Course,190,Veg,14,31
+I0678,R088,Desserts,Gulab Jamun,Dessert,96,Veg,8,70
+I0679,R088,Desserts,Brownie,Dessert,161,Veg,10,84
+I0680,R088,Desserts,Chocolate Cake,Dessert,165,Veg,12,91
+I0681,R088,Desserts,Cheesecake,Dessert,242,Veg,15,59
+I0682,R088,Desserts,Ice Cream,Dessert,101,Veg,5,40
+I0683,R088,Desserts,Chocolate Mousse,Dessert,172,Veg,10,79
+I0684,R088,Desserts,Rasmalai,Dessert,125,Veg,8,50
+I0685,R089,Desserts,Gulab Jamun,Dessert,82,Veg,8,49
+I0686,R089,Desserts,Brownie,Dessert,134,Veg,10,73
+I0687,R089,Desserts,Chocolate Cake,Dessert,149,Veg,12,90
+I0688,R089,Desserts,Cheesecake,Dessert,200,Veg,15,64
+I0689,R089,Desserts,Ice Cream,Dessert,111,Veg,5,94
+I0690,R089,Desserts,Chocolate Mousse,Dessert,136,Veg,10,76
+I0691,R089,Desserts,Rasmalai,Dessert,110,Veg,8,83
+I0692,R090,Biryani,Chicken Biryani,Main Course,222,Non-Veg,25,76
+I0693,R090,Biryani,Mutton Biryani,Main Course,299,Non-Veg,30,48
+I0694,R090,Biryani,Egg Biryani,Main Course,202,Non-Veg,22,51
+I0695,R090,Biryani,Paneer Biryani,Main Course,200,Veg,22,80
+I0696,R090,Biryani,Veg Biryani,Main Course,162,Veg,20,58
+I0697,R090,Biryani,Chicken 65,Starter,223,Non-Veg,18,84
+I0698,R090,Biryani,Raita,Side,62,Veg,5,57
+I0699,R090,Biryani,Biryani Combo,Combo,268,Non-Veg,28,74
+I0700,R091,Biryani,Chicken Biryani,Main Course,251,Non-Veg,25,95
+I0701,R091,Biryani,Mutton Biryani,Main Course,310,Non-Veg,30,84
+I0702,R091,Biryani,Egg Biryani,Main Course,206,Non-Veg,22,67
+I0703,R091,Biryani,Paneer Biryani,Main Course,174,Veg,22,54
+I0704,R091,Biryani,Veg Biryani,Main Course,144,Veg,20,90
+I0705,R091,Biryani,Chicken 65,Starter,214,Non-Veg,18,56
+I0706,R091,Biryani,Raita,Side,56,Veg,5,94
+I0707,R091,Biryani,Biryani Combo,Combo,284,Non-Veg,28,69
+I0708,R092,Biryani,Chicken Biryani,Main Course,224,Non-Veg,25,77
+I0709,R092,Biryani,Mutton Biryani,Main Course,310,Non-Veg,30,85
+I0710,R092,Biryani,Egg Biryani,Main Course,189,Non-Veg,22,90
+I0711,R092,Biryani,Paneer Biryani,Main Course,171,Veg,22,75
+I0712,R092,Biryani,Veg Biryani,Main Course,146,Veg,20,37
+I0713,R092,Biryani,Chicken 65,Starter,191,Non-Veg,18,68
+I0714,R092,Biryani,Raita,Side,66,Veg,5,78
+I0715,R092,Biryani,Biryani Combo,Combo,267,Non-Veg,28,83
+I0716,R093,Pizza,Margherita Pizza,Main Course,249,Veg,15,38
+I0717,R093,Pizza,Farmhouse Pizza,Main Course,353,Veg,18,78
+I0718,R093,Pizza,Paneer Pizza,Main Course,316,Veg,18,50
+I0719,R093,Pizza,Chicken Pizza,Main Course,345,Non-Veg,20,68
+I0720,R093,Pizza,Pepperoni Pizza,Main Course,397,Non-Veg,20,68
+I0721,R093,Pizza,Garlic Bread,Side,143,Veg,10,40
+I0722,R093,Pizza,Cheese Burst Pizza,Main Course,328,Veg,20,40
+I0723,R094,Healthy,Veg Salad Bowl,Healthy,168,Veg,10,75
+I0724,R094,Healthy,Chicken Salad Bowl,Healthy,216,Non-Veg,12,69
+I0725,R094,Healthy,Paneer Bowl,Healthy,221,Veg,12,90
+I0726,R094,Healthy,Grilled Chicken Bowl,Healthy,280,Non-Veg,18,41
+I0727,R094,Healthy,Fruit Bowl,Healthy,160,Veg,8,62
+I0728,R094,Healthy,Protein Smoothie,Beverage,199,Veg,8,98
+I0729,R094,Healthy,Oats Bowl,Breakfast,126,Veg,10,75
+I0730,R095,South Indian,Masala Dosa,Main Course,110,Veg,12,76
+I0731,R095,South Indian,Plain Dosa,Main Course,82,Veg,10,76
+I0732,R095,South Indian,Idli Sambar,Main Course,101,Veg,10,47
+I0733,R095,South Indian,Vada Sambar,Main Course,93,Veg,10,62
+I0734,R095,South Indian,Paneer Dosa,Main Course,152,Veg,14,48
+I0735,R095,South Indian,Uttapam,Main Course,126,Veg,12,69
+I0736,R095,South Indian,Filter Coffee,Beverage,76,Veg,5,44
+I0737,R096,Healthy,Veg Salad Bowl,Healthy,196,Veg,10,31
+I0738,R096,Healthy,Chicken Salad Bowl,Healthy,245,Non-Veg,12,95
+I0739,R096,Healthy,Paneer Bowl,Healthy,247,Veg,12,39
+I0740,R096,Healthy,Grilled Chicken Bowl,Healthy,267,Non-Veg,18,80
+I0741,R096,Healthy,Fruit Bowl,Healthy,169,Veg,8,68
+I0742,R096,Healthy,Protein Smoothie,Beverage,201,Veg,8,99
+I0743,R096,Healthy,Oats Bowl,Breakfast,130,Veg,10,31
+I0744,R097,North Indian,Butter Chicken,Main Course,289,Non-Veg,25,32
+I0745,R097,North Indian,Paneer Butter Masala,Main Course,227,Veg,20,69
+I0746,R097,North Indian,Dal Makhani,Main Course,199,Veg,18,70
+I0747,R097,North Indian,Chole Bhature,Main Course,161,Veg,15,64
+I0748,R097,North Indian,Kadhai Paneer,Main Course,213,Veg,20,84
+I0749,R097,North Indian,Chicken Tikka,Starter,251,Non-Veg,20,91
+I0750,R097,North Indian,Paneer Tikka,Starter,208,Veg,18,54
+I0751,R097,North Indian,Garlic Naan,Bread,76,Veg,8,67
+I0752,R097,North Indian,Jeera Rice,Rice,144,Veg,15,83
+I0753,R097,North Indian,Gulab Jamun,Dessert,100,Veg,8,65
+I0754,R098,Healthy,Veg Salad Bowl,Healthy,192,Veg,10,82
+I0755,R098,Healthy,Chicken Salad Bowl,Healthy,257,Non-Veg,12,59
+I0756,R098,Healthy,Paneer Bowl,Healthy,223,Veg,12,61
+I0757,R098,Healthy,Grilled Chicken Bowl,Healthy,287,Non-Veg,18,57
+I0758,R098,Healthy,Fruit Bowl,Healthy,157,Veg,8,70
+I0759,R098,Healthy,Protein Smoothie,Beverage,181,Veg,8,77
+I0760,R098,Healthy,Oats Bowl,Breakfast,126,Veg,10,86
+I0761,R099,Pizza,Margherita Pizza,Main Course,200,Veg,15,62
+I0762,R099,Pizza,Farmhouse Pizza,Main Course,330,Veg,18,63
+I0763,R099,Pizza,Paneer Pizza,Main Course,283,Veg,18,66
+I0764,R099,Pizza,Chicken Pizza,Main Course,372,Non-Veg,20,66
+I0765,R099,Pizza,Pepperoni Pizza,Main Course,427,Non-Veg,20,94
+I0766,R099,Pizza,Garlic Bread,Side,159,Veg,10,48
+I0767,R099,Pizza,Cheese Burst Pizza,Main Course,326,Veg,20,89
+I0768,R100,North Indian,Butter Chicken,Main Course,279,Non-Veg,25,64
+I0769,R100,North Indian,Paneer Butter Masala,Main Course,217,Veg,20,40
+I0770,R100,North Indian,Dal Makhani,Main Course,176,Veg,18,67
+I0771,R100,North Indian,Chole Bhature,Main Course,178,Veg,15,37
+I0772,R100,North Indian,Kadhai Paneer,Main Course,208,Veg,20,85
+I0773,R100,North Indian,Chicken Tikka,Starter,275,Non-Veg,20,94
+I0774,R100,North Indian,Paneer Tikka,Starter,185,Veg,18,79
+I0775,R100,North Indian,Garlic Naan,Bread,71,Veg,8,88
+I0776,R100,North Indian,Jeera Rice,Rice,134,Veg,15,74
+I0777,R100,North Indian,Gulab Jamun,Dessert,90,Veg,8,56
+I0778,R101,Healthy,Veg Salad Bowl,Healthy,171,Veg,10,93
+I0779,R101,Healthy,Chicken Salad Bowl,Healthy,231,Non-Veg,12,80
+I0780,R101,Healthy,Paneer Bowl,Healthy,199,Veg,12,88
+I0781,R101,Healthy,Grilled Chicken Bowl,Healthy,244,Non-Veg,18,59
+I0782,R101,Healthy,Fruit Bowl,Healthy,140,Veg,8,66
+I0783,R101,Healthy,Protein Smoothie,Beverage,205,Veg,8,64
+I0784,R101,Healthy,Oats Bowl,Breakfast,157,Veg,10,97
+I0785,R102,Pizza,Margherita Pizza,Main Course,253,Veg,15,58
+I0786,R102,Pizza,Farmhouse Pizza,Main Course,311,Veg,18,76
+I0787,R102,Pizza,Paneer Pizza,Main Course,281,Veg,18,46
+I0788,R102,Pizza,Chicken Pizza,Main Course,349,Non-Veg,20,51
+I0789,R102,Pizza,Pepperoni Pizza,Main Course,393,Non-Veg,20,66
+I0790,R102,Pizza,Garlic Bread,Side,143,Veg,10,42
+I0791,R102,Pizza,Cheese Burst Pizza,Main Course,373,Veg,20,82
+I0792,R103,South Indian,Masala Dosa,Main Course,133,Veg,12,80
+I0793,R103,South Indian,Plain Dosa,Main Course,89,Veg,10,61
+I0794,R103,South Indian,Idli Sambar,Main Course,97,Veg,10,75
+I0795,R103,South Indian,Vada Sambar,Main Course,107,Veg,10,50
+I0796,R103,South Indian,Paneer Dosa,Main Course,171,Veg,14,97
+I0797,R103,South Indian,Uttapam,Main Course,118,Veg,12,92
+I0798,R103,South Indian,Filter Coffee,Beverage,65,Veg,5,42
+I0799,R104,Healthy,Veg Salad Bowl,Healthy,190,Veg,10,40
+I0800,R104,Healthy,Chicken Salad Bowl,Healthy,219,Non-Veg,12,46
+I0801,R104,Healthy,Paneer Bowl,Healthy,238,Veg,12,53
+I0802,R104,Healthy,Grilled Chicken Bowl,Healthy,274,Non-Veg,18,66
+I0803,R104,Healthy,Fruit Bowl,Healthy,162,Veg,8,37
+I0804,R104,Healthy,Protein Smoothie,Beverage,164,Veg,8,46
+I0805,R104,Healthy,Oats Bowl,Breakfast,151,Veg,10,48
+I0806,R105,Pizza,Margherita Pizza,Main Course,205,Veg,15,40
+I0807,R105,Pizza,Farmhouse Pizza,Main Course,316,Veg,18,76
+I0808,R105,Pizza,Paneer Pizza,Main Course,335,Veg,18,50
+I0809,R105,Pizza,Chicken Pizza,Main Course,380,Non-Veg,20,34
+I0810,R105,Pizza,Pepperoni Pizza,Main Course,417,Non-Veg,20,49
+I0811,R105,Pizza,Garlic Bread,Side,142,Veg,10,41
+I0812,R105,Pizza,Cheese Burst Pizza,Main Course,411,Veg,20,48
+I0813,R106,Biryani,Chicken Biryani,Main Course,226,Non-Veg,25,81
+I0814,R106,Biryani,Mutton Biryani,Main Course,357,Non-Veg,30,84
+I0815,R106,Biryani,Egg Biryani,Main Course,179,Non-Veg,22,62
+I0816,R106,Biryani,Paneer Biryani,Main Course,198,Veg,22,52
+I0817,R106,Biryani,Veg Biryani,Main Course,159,Veg,20,93
+I0818,R106,Biryani,Chicken 65,Starter,215,Non-Veg,18,80
+I0819,R106,Biryani,Raita,Side,67,Veg,5,80
+I0820,R106,Biryani,Biryani Combo,Combo,294,Non-Veg,28,33
+I0821,R107,Desserts,Gulab Jamun,Dessert,99,Veg,8,64
+I0822,R107,Desserts,Brownie,Dessert,133,Veg,10,74
+I0823,R107,Desserts,Chocolate Cake,Dessert,162,Veg,12,48
+I0824,R107,Desserts,Cheesecake,Dessert,215,Veg,15,96
+I0825,R107,Desserts,Ice Cream,Dessert,101,Veg,5,42
+I0826,R107,Desserts,Chocolate Mousse,Dessert,171,Veg,10,90
+I0827,R107,Desserts,Rasmalai,Dessert,136,Veg,8,51
+I0828,R108,Biryani,Chicken Biryani,Main Course,236,Non-Veg,25,72
+I0829,R108,Biryani,Mutton Biryani,Main Course,358,Non-Veg,30,39
+I0830,R108,Biryani,Egg Biryani,Main Course,168,Non-Veg,22,50
+I0831,R108,Biryani,Paneer Biryani,Main Course,188,Veg,22,95
+I0832,R108,Biryani,Veg Biryani,Main Course,157,Veg,20,64
+I0833,R108,Biryani,Chicken 65,Starter,200,Non-Veg,18,86
+I0834,R108,Biryani,Raita,Side,66,Veg,5,64
+I0835,R108,Biryani,Biryani Combo,Combo,322,Non-Veg,28,37
+I0836,R109,Desserts,Gulab Jamun,Dessert,103,Veg,8,100
+I0837,R109,Desserts,Brownie,Dessert,126,Veg,10,96
+I0838,R109,Desserts,Chocolate Cake,Dessert,174,Veg,12,54
+I0839,R109,Desserts,Cheesecake,Dessert,233,Veg,15,44
+I0840,R109,Desserts,Ice Cream,Dessert,94,Veg,5,37
+I0841,R109,Desserts,Chocolate Mousse,Dessert,164,Veg,10,30
+I0842,R109,Desserts,Rasmalai,Dessert,133,Veg,8,95
+I0843,R110,Chinese,Veg Hakka Noodles,Main Course,148,Veg,15,52
+I0844,R110,Chinese,Chicken Hakka Noodles,Main Course,215,Non-Veg,18,75
+I0845,R110,Chinese,Veg Fried Rice,Main Course,146,Veg,15,33
+I0846,R110,Chinese,Chicken Fried Rice,Main Course,200,Non-Veg,18,32
+I0847,R110,Chinese,Chilli Paneer,Starter,201,Veg,15,74
+I0848,R110,Chinese,Chilli Chicken,Starter,236,Non-Veg,18,74
+I0849,R110,Chinese,Manchurian,Starter,194,Veg,15,45
+I0850,R110,Chinese,Spring Rolls,Starter,139,Veg,12,46
+I0851,R111,Chinese,Veg Hakka Noodles,Main Course,164,Veg,15,45
+I0852,R111,Chinese,Chicken Hakka Noodles,Main Course,214,Non-Veg,18,95
+I0853,R111,Chinese,Veg Fried Rice,Main Course,138,Veg,15,42
+I0854,R111,Chinese,Chicken Fried Rice,Main Course,213,Non-Veg,18,60
+I0855,R111,Chinese,Chilli Paneer,Starter,182,Veg,15,68
+I0856,R111,Chinese,Chilli Chicken,Starter,220,Non-Veg,18,84
+I0857,R111,Chinese,Manchurian,Starter,192,Veg,15,82
+I0858,R111,Chinese,Spring Rolls,Starter,144,Veg,12,46
+I0859,R112,Chinese,Veg Hakka Noodles,Main Course,170,Veg,15,82
+I0860,R112,Chinese,Chicken Hakka Noodles,Main Course,191,Non-Veg,18,48
+I0861,R112,Chinese,Veg Fried Rice,Main Course,148,Veg,15,86
+I0862,R112,Chinese,Chicken Fried Rice,Main Course,218,Non-Veg,18,60
+I0863,R112,Chinese,Chilli Paneer,Starter,213,Veg,15,52
+I0864,R112,Chinese,Chilli Chicken,Starter,246,Non-Veg,18,39
+I0865,R112,Chinese,Manchurian,Starter,188,Veg,15,83
+I0866,R112,Chinese,Spring Rolls,Starter,119,Veg,12,61
+I0867,R113,South Indian,Masala Dosa,Main Course,124,Veg,12,79
+I0868,R113,South Indian,Plain Dosa,Main Course,97,Veg,10,82
+I0869,R113,South Indian,Idli Sambar,Main Course,99,Veg,10,51
+I0870,R113,South Indian,Vada Sambar,Main Course,104,Veg,10,33
+I0871,R113,South Indian,Paneer Dosa,Main Course,140,Veg,14,37
+I0872,R113,South Indian,Uttapam,Main Course,116,Veg,12,60
+I0873,R113,South Indian,Filter Coffee,Beverage,68,Veg,5,78
+I0874,R114,Biryani,Chicken Biryani,Main Course,215,Non-Veg,25,55
+I0875,R114,Biryani,Mutton Biryani,Main Course,345,Non-Veg,30,67
+I0876,R114,Biryani,Egg Biryani,Main Course,202,Non-Veg,22,79
+I0877,R114,Biryani,Paneer Biryani,Main Course,193,Veg,22,35
+I0878,R114,Biryani,Veg Biryani,Main Course,154,Veg,20,93
+I0879,R114,Biryani,Chicken 65,Starter,206,Non-Veg,18,40
+I0880,R114,Biryani,Raita,Side,66,Veg,5,48
+I0881,R114,Biryani,Biryani Combo,Combo,292,Non-Veg,28,63
+I0882,R115,Desserts,Gulab Jamun,Dessert,88,Veg,8,44
+I0883,R115,Desserts,Brownie,Dessert,159,Veg,10,78
+I0884,R115,Desserts,Chocolate Cake,Dessert,159,Veg,12,85
+I0885,R115,Desserts,Cheesecake,Dessert,251,Veg,15,66
+I0886,R115,Desserts,Ice Cream,Dessert,93,Veg,5,58
+I0887,R115,Desserts,Chocolate Mousse,Dessert,150,Veg,10,84
+I0888,R115,Desserts,Rasmalai,Dessert,108,Veg,8,52
+I0889,R116,Pizza,Margherita Pizza,Main Course,212,Veg,15,42
+I0890,R116,Pizza,Farmhouse Pizza,Main Course,303,Veg,18,53
+I0891,R116,Pizza,Paneer Pizza,Main Course,327,Veg,18,46
+I0892,R116,Pizza,Chicken Pizza,Main Course,374,Non-Veg,20,54
+I0893,R116,Pizza,Pepperoni Pizza,Main Course,370,Non-Veg,20,50
+I0894,R116,Pizza,Garlic Bread,Side,143,Veg,10,41
+I0895,R116,Pizza,Cheese Burst Pizza,Main Course,414,Veg,20,46
+I0896,R117,North Indian,Butter Chicken,Main Course,277,Non-Veg,25,77
+I0897,R117,North Indian,Paneer Butter Masala,Main Course,219,Veg,20,70
+I0898,R117,North Indian,Dal Makhani,Main Course,183,Veg,18,47
+I0899,R117,North Indian,Chole Bhature,Main Course,169,Veg,15,100
+I0900,R117,North Indian,Kadhai Paneer,Main Course,229,Veg,20,42
+I0901,R117,North Indian,Chicken Tikka,Starter,241,Non-Veg,20,31
+I0902,R117,North Indian,Paneer Tikka,Starter,191,Veg,18,67
+I0903,R117,North Indian,Garlic Naan,Bread,71,Veg,8,85
+I0904,R117,North Indian,Jeera Rice,Rice,138,Veg,15,74
+I0905,R117,North Indian,Gulab Jamun,Dessert,82,Veg,8,38
+I0906,R118,Pizza,Margherita Pizza,Main Course,206,Veg,15,36
+I0907,R118,Pizza,Farmhouse Pizza,Main Course,298,Veg,18,32
+I0908,R118,Pizza,Paneer Pizza,Main Course,294,Veg,18,73
+I0909,R118,Pizza,Chicken Pizza,Main Course,350,Non-Veg,20,83
+I0910,R118,Pizza,Pepperoni Pizza,Main Course,361,Non-Veg,20,50
+I0911,R118,Pizza,Garlic Bread,Side,136,Veg,10,42
+I0912,R118,Pizza,Cheese Burst Pizza,Main Course,329,Veg,20,83
+I0913,R119,North Indian,Butter Chicken,Main Course,288,Non-Veg,25,73
+I0914,R119,North Indian,Paneer Butter Masala,Main Course,203,Veg,20,75
+I0915,R119,North Indian,Dal Makhani,Main Course,173,Veg,18,53
+I0916,R119,North Indian,Chole Bhature,Main Course,178,Veg,15,43
+I0917,R119,North Indian,Kadhai Paneer,Main Course,211,Veg,20,54
+I0918,R119,North Indian,Chicken Tikka,Starter,260,Non-Veg,20,46
+I0919,R119,North Indian,Paneer Tikka,Starter,225,Veg,18,53
+I0920,R119,North Indian,Garlic Naan,Bread,76,Veg,8,54
+I0921,R119,North Indian,Jeera Rice,Rice,148,Veg,15,89
+I0922,R119,North Indian,Gulab Jamun,Dessert,90,Veg,8,94
+I0923,R120,Burgers,Veg Burger,Main Course,127,Veg,10,57
+I0924,R120,Burgers,Paneer Burger,Main Course,164,Veg,12,87
+I0925,R120,Burgers,Chicken Burger,Main Course,212,Non-Veg,12,82
+I0926,R120,Burgers,Cheese Burger,Main Course,165,Veg,12,76
+I0927,R120,Burgers,Double Chicken Burger,Main Course,286,Non-Veg,15,63
+I0928,R120,Burgers,French Fries,Side,104,Veg,8,36
+I0929,R120,Burgers,Peri Peri Fries,Side,118,Veg,8,54
+I0930,R121,Pizza,Margherita Pizza,Main Course,241,Veg,15,87
+I0931,R121,Pizza,Farmhouse Pizza,Main Course,306,Veg,18,86
+I0932,R121,Pizza,Paneer Pizza,Main Course,298,Veg,18,45
+I0933,R121,Pizza,Chicken Pizza,Main Course,365,Non-Veg,20,36
+I0934,R121,Pizza,Pepperoni Pizza,Main Course,426,Non-Veg,20,80
+I0935,R121,Pizza,Garlic Bread,Side,127,Veg,10,37
+I0936,R121,Pizza,Cheese Burst Pizza,Main Course,394,Veg,20,74
+I0937,R122,Healthy,Veg Salad Bowl,Healthy,180,Veg,10,33
+I0938,R122,Healthy,Chicken Salad Bowl,Healthy,259,Non-Veg,12,58
+I0939,R122,Healthy,Paneer Bowl,Healthy,211,Veg,12,57
+I0940,R122,Healthy,Grilled Chicken Bowl,Healthy,265,Non-Veg,18,73
+I0941,R122,Healthy,Fruit Bowl,Healthy,137,Veg,8,38
+I0942,R122,Healthy,Protein Smoothie,Beverage,173,Veg,8,85
+I0943,R122,Healthy,Oats Bowl,Breakfast,161,Veg,10,79
+I0944,R123,Healthy,Veg Salad Bowl,Healthy,191,Veg,10,61
+I0945,R123,Healthy,Chicken Salad Bowl,Healthy,211,Non-Veg,12,46
+I0946,R123,Healthy,Paneer Bowl,Healthy,210,Veg,12,100
+I0947,R123,Healthy,Grilled Chicken Bowl,Healthy,243,Non-Veg,18,55
+I0948,R123,Healthy,Fruit Bowl,Healthy,167,Veg,8,74
+I0949,R123,Healthy,Protein Smoothie,Beverage,174,Veg,8,82
+I0950,R123,Healthy,Oats Bowl,Breakfast,144,Veg,10,97
+I0951,R124,Momos,Veg Momos,Main Course,120,Veg,10,57
+I0952,R124,Momos,Chicken Momos,Main Course,159,Non-Veg,12,94
+I0953,R124,Momos,Paneer Momos,Main Course,138,Veg,12,81
+I0954,R124,Momos,Fried Momos,Main Course,157,Veg,14,83
+I0955,R124,Momos,Chicken Fried Momos,Main Course,193,Non-Veg,15,76
+I0956,R124,Momos,Tandoori Momos,Main Course,165,Veg,15,75
+I0957,R124,Momos,Chilli Momos,Main Course,156,Veg,14,34
+I0958,R125,Biryani,Chicken Biryani,Main Course,225,Non-Veg,25,83
+I0959,R125,Biryani,Mutton Biryani,Main Course,321,Non-Veg,30,67
+I0960,R125,Biryani,Egg Biryani,Main Course,186,Non-Veg,22,44
+I0961,R125,Biryani,Paneer Biryani,Main Course,188,Veg,22,50
+I0962,R125,Biryani,Veg Biryani,Main Course,182,Veg,20,35
+I0963,R125,Biryani,Chicken 65,Starter,203,Non-Veg,18,91
+I0964,R125,Biryani,Raita,Side,61,Veg,5,75
+I0965,R125,Biryani,Biryani Combo,Combo,282,Non-Veg,28,32
+I0966,R126,North Indian,Butter Chicken,Main Course,264,Non-Veg,25,37
+I0967,R126,North Indian,Paneer Butter Masala,Main Course,210,Veg,20,62
+I0968,R126,North Indian,Dal Makhani,Main Course,168,Veg,18,79
+I0969,R126,North Indian,Chole Bhature,Main Course,178,Veg,15,57
+I0970,R126,North Indian,Kadhai Paneer,Main Course,224,Veg,20,70
+I0971,R126,North Indian,Chicken Tikka,Starter,228,Non-Veg,20,77
+I0972,R126,North Indian,Paneer Tikka,Starter,200,Veg,18,88
+I0973,R126,North Indian,Garlic Naan,Bread,80,Veg,8,40
+I0974,R126,North Indian,Jeera Rice,Rice,132,Veg,15,47
+I0975,R126,North Indian,Gulab Jamun,Dessert,94,Veg,8,84
+I0976,R127,North Indian,Butter Chicken,Main Course,267,Non-Veg,25,55
+I0977,R127,North Indian,Paneer Butter Masala,Main Course,199,Veg,20,58
+I0978,R127,North Indian,Dal Makhani,Main Course,203,Veg,18,46
+I0979,R127,North Indian,Chole Bhature,Main Course,182,Veg,15,95
+I0980,R127,North Indian,Kadhai Paneer,Main Course,240,Veg,20,37
+I0981,R127,North Indian,Chicken Tikka,Starter,226,Non-Veg,20,37
+I0982,R127,North Indian,Paneer Tikka,Starter,219,Veg,18,94
+I0983,R127,North Indian,Garlic Naan,Bread,71,Veg,8,88
+I0984,R127,North Indian,Jeera Rice,Rice,148,Veg,15,73
+I0985,R127,North Indian,Gulab Jamun,Dessert,81,Veg,8,65
+I0986,R128,Biryani,Chicken Biryani,Main Course,218,Non-Veg,25,57
+I0987,R128,Biryani,Mutton Biryani,Main Course,306,Non-Veg,30,72
+I0988,R128,Biryani,Egg Biryani,Main Course,164,Non-Veg,22,71
+I0989,R128,Biryani,Paneer Biryani,Main Course,186,Veg,22,95
+I0990,R128,Biryani,Veg Biryani,Main Course,165,Veg,20,77
+I0991,R128,Biryani,Chicken 65,Starter,194,Non-Veg,18,56
+I0992,R128,Biryani,Raita,Side,54,Veg,5,96
+I0993,R128,Biryani,Biryani Combo,Combo,315,Non-Veg,28,74
+I0994,R129,South Indian,Masala Dosa,Main Course,112,Veg,12,38
+I0995,R129,South Indian,Plain Dosa,Main Course,84,Veg,10,56
+I0996,R129,South Indian,Idli Sambar,Main Course,102,Veg,10,30
+I0997,R129,South Indian,Vada Sambar,Main Course,91,Veg,10,100
+I0998,R129,South Indian,Paneer Dosa,Main Course,149,Veg,14,49
+I0999,R129,South Indian,Uttapam,Main Course,131,Veg,12,64
+I1000,R129,South Indian,Filter Coffee,Beverage,64,Veg,5,46
+I1001,R130,Momos,Veg Momos,Main Course,132,Veg,10,82
+I1002,R130,Momos,Chicken Momos,Main Course,148,Non-Veg,12,97
+I1003,R130,Momos,Paneer Momos,Main Course,156,Veg,12,30
+I1004,R130,Momos,Fried Momos,Main Course,152,Veg,14,49
+I1005,R130,Momos,Chicken Fried Momos,Main Course,176,Non-Veg,15,39
+I1006,R130,Momos,Tandoori Momos,Main Course,200,Veg,15,70
+I1007,R130,Momos,Chilli Momos,Main Course,155,Veg,14,94
+I1008,R131,South Indian,Masala Dosa,Main Course,113,Veg,12,70
+I1009,R131,South Indian,Plain Dosa,Main Course,102,Veg,10,98
+I1010,R131,South Indian,Idli Sambar,Main Course,97,Veg,10,85
+I1011,R131,South Indian,Vada Sambar,Main Course,105,Veg,10,55
+I1012,R131,South Indian,Paneer Dosa,Main Course,166,Veg,14,89
+I1013,R131,South Indian,Uttapam,Main Course,121,Veg,12,100
+I1014,R131,South Indian,Filter Coffee,Beverage,78,Veg,5,34
+I1015,R132,South Indian,Masala Dosa,Main Course,121,Veg,12,33
+I1016,R132,South Indian,Plain Dosa,Main Course,100,Veg,10,44
+I1017,R132,South Indian,Idli Sambar,Main Course,93,Veg,10,37
+I1018,R132,South Indian,Vada Sambar,Main Course,95,Veg,10,48
+I1019,R132,South Indian,Paneer Dosa,Main Course,157,Veg,14,75
+I1020,R132,South Indian,Uttapam,Main Course,114,Veg,12,97
+I1021,R132,South Indian,Filter Coffee,Beverage,68,Veg,5,66
+I1022,R133,South Indian,Masala Dosa,Main Course,122,Veg,12,53
+I1023,R133,South Indian,Plain Dosa,Main Course,100,Veg,10,92
+I1024,R133,South Indian,Idli Sambar,Main Course,88,Veg,10,53
+I1025,R133,South Indian,Vada Sambar,Main Course,99,Veg,10,33
+I1026,R133,South Indian,Paneer Dosa,Main Course,141,Veg,14,86
+I1027,R133,South Indian,Uttapam,Main Course,122,Veg,12,82
+I1028,R133,South Indian,Filter Coffee,Beverage,68,Veg,5,52
+I1029,R134,Biryani,Chicken Biryani,Main Course,249,Non-Veg,25,82
+I1030,R134,Biryani,Mutton Biryani,Main Course,349,Non-Veg,30,86
+I1031,R134,Biryani,Egg Biryani,Main Course,189,Non-Veg,22,89
+I1032,R134,Biryani,Paneer Biryani,Main Course,196,Veg,22,86
+I1033,R134,Biryani,Veg Biryani,Main Course,183,Veg,20,36
+I1034,R134,Biryani,Chicken 65,Starter,200,Non-Veg,18,90
+I1035,R134,Biryani,Raita,Side,61,Veg,5,80
+I1036,R134,Biryani,Biryani Combo,Combo,256,Non-Veg,28,97
+I1037,R135,South Indian,Masala Dosa,Main Course,137,Veg,12,67
+I1038,R135,South Indian,Plain Dosa,Main Course,97,Veg,10,65
+I1039,R135,South Indian,Idli Sambar,Main Course,98,Veg,10,98
+I1040,R135,South Indian,Vada Sambar,Main Course,109,Veg,10,87
+I1041,R135,South Indian,Paneer Dosa,Main Course,146,Veg,14,91
+I1042,R135,South Indian,Uttapam,Main Course,133,Veg,12,56
+I1043,R135,South Indian,Filter Coffee,Beverage,68,Veg,5,86
+I1044,R136,Healthy,Veg Salad Bowl,Healthy,179,Veg,10,76
+I1045,R136,Healthy,Chicken Salad Bowl,Healthy,253,Non-Veg,12,68
+I1046,R136,Healthy,Paneer Bowl,Healthy,210,Veg,12,51
+I1047,R136,Healthy,Grilled Chicken Bowl,Healthy,260,Non-Veg,18,50
+I1048,R136,Healthy,Fruit Bowl,Healthy,141,Veg,8,45
+I1049,R136,Healthy,Protein Smoothie,Beverage,166,Veg,8,60
+I1050,R136,Healthy,Oats Bowl,Breakfast,152,Veg,10,61
+I1051,R137,Chinese,Veg Hakka Noodles,Main Course,151,Veg,15,38
+I1052,R137,Chinese,Chicken Hakka Noodles,Main Course,203,Non-Veg,18,39
+I1053,R137,Chinese,Veg Fried Rice,Main Course,153,Veg,15,46
+I1054,R137,Chinese,Chicken Fried Rice,Main Course,210,Non-Veg,18,81
+I1055,R137,Chinese,Chilli Paneer,Starter,201,Veg,15,50
+I1056,R137,Chinese,Chilli Chicken,Starter,229,Non-Veg,18,94
+I1057,R137,Chinese,Manchurian,Starter,183,Veg,15,80
+I1058,R137,Chinese,Spring Rolls,Starter,129,Veg,12,95
+I1059,R138,Burgers,Veg Burger,Main Course,140,Veg,10,68
+I1060,R138,Burgers,Paneer Burger,Main Course,173,Veg,12,30
+I1061,R138,Burgers,Chicken Burger,Main Course,177,Non-Veg,12,68
+I1062,R138,Burgers,Cheese Burger,Main Course,200,Veg,12,86
+I1063,R138,Burgers,Double Chicken Burger,Main Course,252,Non-Veg,15,70
+I1064,R138,Burgers,French Fries,Side,104,Veg,8,42
+I1065,R138,Burgers,Peri Peri Fries,Side,124,Veg,8,81
+I1066,R139,North Indian,Butter Chicken,Main Course,263,Non-Veg,25,92
+I1067,R139,North Indian,Paneer Butter Masala,Main Course,240,Veg,20,76
+I1068,R139,North Indian,Dal Makhani,Main Course,182,Veg,18,93
+I1069,R139,North Indian,Chole Bhature,Main Course,164,Veg,15,96
+I1070,R139,North Indian,Kadhai Paneer,Main Course,214,Veg,20,61
+I1071,R139,North Indian,Chicken Tikka,Starter,239,Non-Veg,20,97
+I1072,R139,North Indian,Paneer Tikka,Starter,199,Veg,18,72
+I1073,R139,North Indian,Garlic Naan,Bread,78,Veg,8,87
+I1074,R139,North Indian,Jeera Rice,Rice,137,Veg,15,63
+I1075,R139,North Indian,Gulab Jamun,Dessert,91,Veg,8,33
+I1076,R140,North Indian,Butter Chicken,Main Course,291,Non-Veg,25,58
+I1077,R140,North Indian,Paneer Butter Masala,Main Course,243,Veg,20,78
+I1078,R140,North Indian,Dal Makhani,Main Course,186,Veg,18,94
+I1079,R140,North Indian,Chole Bhature,Main Course,156,Veg,15,35
+I1080,R140,North Indian,Kadhai Paneer,Main Course,195,Veg,20,93
+I1081,R140,North Indian,Chicken Tikka,Starter,259,Non-Veg,20,48
+I1082,R140,North Indian,Paneer Tikka,Starter,200,Veg,18,72
+I1083,R140,North Indian,Garlic Naan,Bread,78,Veg,8,49
+I1084,R140,North Indian,Jeera Rice,Rice,139,Veg,15,73
+I1085,R140,North Indian,Gulab Jamun,Dessert,88,Veg,8,51
+I1086,R141,Burgers,Veg Burger,Main Course,139,Veg,10,36
+I1087,R141,Burgers,Paneer Burger,Main Course,166,Veg,12,96
+I1088,R141,Burgers,Chicken Burger,Main Course,211,Non-Veg,12,80
+I1089,R141,Burgers,Cheese Burger,Main Course,163,Veg,12,41
+I1090,R141,Burgers,Double Chicken Burger,Main Course,253,Non-Veg,15,34
+I1091,R141,Burgers,French Fries,Side,109,Veg,8,46
+I1092,R141,Burgers,Peri Peri Fries,Side,147,Veg,8,34
+I1093,R142,Biryani,Chicken Biryani,Main Course,238,Non-Veg,25,98
+I1094,R142,Biryani,Mutton Biryani,Main Course,293,Non-Veg,30,88
+I1095,R142,Biryani,Egg Biryani,Main Course,178,Non-Veg,22,79
+I1096,R142,Biryani,Paneer Biryani,Main Course,192,Veg,22,48
+I1097,R142,Biryani,Veg Biryani,Main Course,171,Veg,20,95
+I1098,R142,Biryani,Chicken 65,Starter,200,Non-Veg,18,68
+I1099,R142,Biryani,Raita,Side,68,Veg,5,42
+I1100,R142,Biryani,Biryani Combo,Combo,307,Non-Veg,28,36
+I1101,R143,Pizza,Margherita Pizza,Main Course,233,Veg,15,43
+I1102,R143,Pizza,Farmhouse Pizza,Main Course,350,Veg,18,83
+I1103,R143,Pizza,Paneer Pizza,Main Course,315,Veg,18,49
+I1104,R143,Pizza,Chicken Pizza,Main Course,339,Non-Veg,20,92
+I1105,R143,Pizza,Pepperoni Pizza,Main Course,383,Non-Veg,20,86
+I1106,R143,Pizza,Garlic Bread,Side,126,Veg,10,91
+I1107,R143,Pizza,Cheese Burst Pizza,Main Course,371,Veg,20,46
+I1108,R144,Biryani,Chicken Biryani,Main Course,204,Non-Veg,25,87
+I1109,R144,Biryani,Mutton Biryani,Main Course,297,Non-Veg,30,91
+I1110,R144,Biryani,Egg Biryani,Main Course,187,Non-Veg,22,70
+I1111,R144,Biryani,Paneer Biryani,Main Course,181,Veg,22,78
+I1112,R144,Biryani,Veg Biryani,Main Course,160,Veg,20,32
+I1113,R144,Biryani,Chicken 65,Starter,200,Non-Veg,18,64
+I1114,R144,Biryani,Raita,Side,58,Veg,5,53
+I1115,R144,Biryani,Biryani Combo,Combo,298,Non-Veg,28,51
+I1116,R145,North Indian,Butter Chicken,Main Course,262,Non-Veg,25,84
+I1117,R145,North Indian,Paneer Butter Masala,Main Course,202,Veg,20,58
+I1118,R145,North Indian,Dal Makhani,Main Course,204,Veg,18,49
+I1119,R145,North Indian,Chole Bhature,Main Course,156,Veg,15,83
+I1120,R145,North Indian,Kadhai Paneer,Main Course,226,Veg,20,48
+I1121,R145,North Indian,Chicken Tikka,Starter,253,Non-Veg,20,95
+I1122,R145,North Indian,Paneer Tikka,Starter,193,Veg,18,63
+I1123,R145,North Indian,Garlic Naan,Bread,75,Veg,8,35
+I1124,R145,North Indian,Jeera Rice,Rice,125,Veg,15,39
+I1125,R145,North Indian,Gulab Jamun,Dessert,91,Veg,8,77
+I1126,R146,North Indian,Butter Chicken,Main Course,293,Non-Veg,25,88
+I1127,R146,North Indian,Paneer Butter Masala,Main Course,213,Veg,20,31
+I1128,R146,North Indian,Dal Makhani,Main Course,201,Veg,18,94
+I1129,R146,North Indian,Chole Bhature,Main Course,149,Veg,15,39
+I1130,R146,North Indian,Kadhai Paneer,Main Course,221,Veg,20,88
+I1131,R146,North Indian,Chicken Tikka,Starter,260,Non-Veg,20,77
+I1132,R146,North Indian,Paneer Tikka,Starter,180,Veg,18,51
+I1133,R146,North Indian,Garlic Naan,Bread,74,Veg,8,59
+I1134,R146,North Indian,Jeera Rice,Rice,139,Veg,15,57
+I1135,R146,North Indian,Gulab Jamun,Dessert,95,Veg,8,74
+I1136,R147,Burgers,Veg Burger,Main Course,136,Veg,10,78
+I1137,R147,Burgers,Paneer Burger,Main Course,176,Veg,12,30
+I1138,R147,Burgers,Chicken Burger,Main Course,181,Non-Veg,12,75
+I1139,R147,Burgers,Cheese Burger,Main Course,170,Veg,12,61
+I1140,R147,Burgers,Double Chicken Burger,Main Course,248,Non-Veg,15,67
+I1141,R147,Burgers,French Fries,Side,102,Veg,8,56
+I1142,R147,Burgers,Peri Peri Fries,Side,131,Veg,8,64
+I1143,R148,South Indian,Masala Dosa,Main Course,135,Veg,12,54
+I1144,R148,South Indian,Plain Dosa,Main Course,91,Veg,10,44
+I1145,R148,South Indian,Idli Sambar,Main Course,99,Veg,10,56
+I1146,R148,South Indian,Vada Sambar,Main Course,90,Veg,10,46
+I1147,R148,South Indian,Paneer Dosa,Main Course,156,Veg,14,70
+I1148,R148,South Indian,Uttapam,Main Course,115,Veg,12,69
+I1149,R148,South Indian,Filter Coffee,Beverage,74,Veg,5,52
+I1150,R149,Biryani,Chicken Biryani,Main Course,201,Non-Veg,25,81
+I1151,R149,Biryani,Mutton Biryani,Main Course,289,Non-Veg,30,92
+I1152,R149,Biryani,Egg Biryani,Main Course,178,Non-Veg,22,98
+I1153,R149,Biryani,Paneer Biryani,Main Course,175,Veg,22,63
+I1154,R149,Biryani,Veg Biryani,Main Course,147,Veg,20,90
+I1155,R149,Biryani,Chicken 65,Starter,211,Non-Veg,18,91
+I1156,R149,Biryani,Raita,Side,63,Veg,5,45
+I1157,R149,Biryani,Biryani Combo,Combo,258,Non-Veg,28,77
+I1158,R150,Desserts,Gulab Jamun,Dessert,88,Veg,8,67
+I1159,R150,Desserts,Brownie,Dessert,139,Veg,10,65
+I1160,R150,Desserts,Chocolate Cake,Dessert,181,Veg,12,75
+I1161,R150,Desserts,Cheesecake,Dessert,220,Veg,15,94
+I1162,R150,Desserts,Ice Cream,Dessert,96,Veg,5,37
+I1163,R150,Desserts,Chocolate Mousse,Dessert,138,Veg,10,35
+I1164,R150,Desserts,Rasmalai,Dessert,132,Veg,8,68

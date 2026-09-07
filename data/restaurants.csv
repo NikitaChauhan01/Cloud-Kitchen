@@ -1,0 +1,151 @@
+restaurant_id,locality_id,cuisine,rating,review_count,avg_order_value,avg_delivery_time_min,discount_pct,platform,estimated_monthly_orders
+R001,7,Biryani,4.8,4182,431,41,20,Swiggy,1871
+R002,4,Momos,3.6,3901,212,53,20,Zomato,1404
+R003,8,South Indian,4.1,3490,366,27,10,Swiggy,1760
+R004,5,Healthy,4.1,3816,610,59,30,Swiggy,1485
+R005,7,Desserts,4.9,2376,254,38,0,Swiggy,1571
+R006,10,Burgers,3.1,2964,248,60,25,Zomato,1207
+R007,3,North Indian,3.6,4002,660,56,15,Direct,1316
+R008,7,Biryani,3.4,645,534,25,25,Zomato,1766
+R009,8,Cafe,3.5,778,554,45,5,Zomato,1183
+R010,5,Healthy,3.9,1415,667,53,5,Zomato,1145
+R011,4,South Indian,3.7,4542,625,25,20,Zomato,1874
+R012,8,Healthy,3.7,748,586,56,10,Swiggy,1090
+R013,8,Desserts,4.6,445,172,52,5,Swiggy,1270
+R014,3,Pizza,4.8,4221,607,41,0,Swiggy,1609
+R015,6,North Indian,3.1,4410,232,40,25,Swiggy,1608
+R016,5,North Indian,3.4,2552,294,25,25,Swiggy,1834
+R017,2,Cafe,4.3,1869,234,25,20,Zomato,1887
+R018,8,Pizza,3.7,767,227,23,30,Swiggy,1899
+R019,6,Momos,3.5,2832,606,49,30,Zomato,1525
+R020,2,Chinese,3.6,4996,150,30,15,Zomato,1764
+R021,5,Biryani,3.6,3627,200,49,20,Swiggy,1481
+R022,1,North Indian,4.6,193,595,50,40,Zomato,1760
+R023,10,Burgers,3.3,3190,598,43,15,Zomato,1408
+R024,6,North Indian,4.3,4541,637,28,40,Swiggy,2226
+R025,9,Healthy,4.1,2988,183,22,30,Zomato,2044
+R026,1,North Indian,3.6,3686,497,50,20,Zomato,1459
+R027,10,North Indian,3.8,3272,244,59,40,Zomato,1579
+R028,3,Chinese,3.5,1217,221,56,20,Zomato,1237
+R029,7,Chinese,4.2,2666,700,55,20,Zomato,1451
+R030,4,South Indian,3.2,1112,303,43,30,Zomato,1468
+R031,9,Momos,3.0,2206,399,50,15,Swiggy,1204
+R032,3,Burgers,4.2,3032,587,25,15,Swiggy,1869
+R033,5,North Indian,3.4,3344,267,21,20,Swiggy,1870
+R034,3,North Indian,3.1,4779,455,39,5,Zomato,1399
+R035,7,Biryani,3.8,1206,417,47,10,Swiggy,1336
+R036,5,Chinese,3.1,782,203,30,30,Zomato,1675
+R037,9,Burgers,4.7,4380,385,23,10,Zomato,1995
+R038,7,Cafe,3.1,4896,538,34,10,Zomato,1504
+R039,2,South Indian,4.1,1003,550,25,15,Direct,1752
+R040,4,Momos,3.8,2589,452,49,15,Zomato,1396
+R041,9,Pizza,4.3,3374,356,57,5,Zomato,1279
+R042,2,Momos,3.6,3351,378,21,10,Swiggy,1774
+R043,10,Healthy,3.3,1592,224,34,10,Zomato,1396
+R044,9,North Indian,4.9,1241,584,30,20,Swiggy,1942
+R045,10,South Indian,4.6,3043,252,27,15,Swiggy,1902
+R046,5,Healthy,4.6,2731,571,45,10,Zomato,1525
+R047,2,Burgers,3.5,1267,455,24,25,Zomato,1795
+R048,4,Pizza,3.1,1590,247,25,5,Swiggy,1480
+R049,7,Chinese,3.6,3286,484,45,40,Zomato,1755
+R050,8,South Indian,4.0,2436,584,23,25,Zomato,1941
+R051,3,South Indian,3.6,3769,596,38,25,Zomato,1675
+R052,1,North Indian,4.6,1438,457,39,40,Zomato,1986
+R053,4,Desserts,3.5,1906,398,52,30,Zomato,1408
+R054,2,South Indian,4.8,1415,315,39,30,Direct,1865
+R055,8,Biryani,3.9,549,630,31,5,Zomato,1526
+R056,4,Pizza,4.6,1730,484,20,25,Zomato,2105
+R057,2,Pizza,3.4,560,691,45,10,Direct,1238
+R058,6,Biryani,3.8,4362,255,33,15,Direct,1746
+R059,6,Cafe,4.3,1374,230,57,5,Swiggy,1175
+R060,10,Biryani,3.3,1205,282,56,20,Swiggy,1212
+R061,4,Biryani,3.3,1877,287,30,40,Swiggy,1895
+R062,6,Pizza,4.8,3191,333,55,25,Swiggy,1644
+R063,2,Momos,4.4,3536,550,32,5,Zomato,1705
+R064,10,Pizza,3.1,1860,479,22,0,Zomato,1478
+R065,2,Desserts,3.8,2973,657,52,0,Zomato,1151
+R066,10,North Indian,3.8,2264,218,25,30,Swiggy,1963
+R067,4,Healthy,4.4,4236,695,29,40,Zomato,2161
+R068,8,Momos,3.5,763,202,24,15,Zomato,1663
+R069,7,Chinese,3.4,3652,599,42,10,Zomato,1418
+R070,9,Healthy,3.2,4184,354,29,15,Direct,1619
+R071,8,North Indian,3.8,3572,275,21,15,Zomato,1899
+R072,5,Desserts,4.3,4318,192,32,15,Swiggy,1805
+R073,2,Desserts,3.1,4798,260,59,40,Zomato,1452
+R074,5,Chinese,4.7,4899,332,21,15,Swiggy,2124
+R075,8,Momos,3.8,1293,244,39,20,Swiggy,1564
+R076,10,Cafe,3.5,3759,523,20,40,Zomato,2122
+R077,9,Biryani,3.2,1131,669,56,20,Swiggy,1189
+R078,9,Momos,3.3,505,509,28,40,Zomato,1848
+R079,1,Cafe,4.8,4974,430,36,30,Swiggy,2055
+R080,9,Desserts,4.2,944,344,28,5,Zomato,1594
+R081,7,Pizza,4.0,1434,344,30,0,Swiggy,1513
+R082,9,North Indian,4.2,2008,242,34,15,Direct,1708
+R083,8,Chinese,3.8,3122,210,43,30,Zomato,1701
+R084,1,North Indian,4.4,2046,200,57,5,Swiggy,1262
+R085,8,Burgers,3.1,4335,552,54,0,Zomato,1057
+R086,8,Burgers,4.1,554,154,49,25,Direct,1486
+R087,3,Momos,3.3,1264,615,50,10,Zomato,1167
+R088,1,Desserts,3.2,1581,683,24,20,Swiggy,1663
+R089,8,Desserts,3.6,3490,554,33,25,Zomato,1736
+R090,3,Biryani,3.2,873,662,30,40,Zomato,1835
+R091,3,Biryani,3.2,978,382,28,0,Zomato,1391
+R092,1,Biryani,3.6,183,673,53,25,Zomato,1339
+R093,5,Pizza,4.9,2155,495,31,10,Swiggy,1826
+R094,10,Healthy,3.3,3677,195,54,30,Swiggy,1399
+R095,7,South Indian,3.0,4830,695,54,0,Zomato,1041
+R096,10,Healthy,4.5,1902,227,20,25,Swiggy,2052
+R097,9,North Indian,4.5,4960,222,59,20,Swiggy,1546
+R098,7,Healthy,3.7,4225,398,41,20,Direct,1589
+R099,9,Pizza,3.9,2983,196,48,5,Zomato,1327
+R100,8,North Indian,4.2,3334,270,27,25,Zomato,1993
+R101,2,Healthy,3.1,4348,363,30,15,Zomato,1590
+R102,1,Pizza,4.8,2861,388,60,25,Zomato,1550
+R103,7,South Indian,4.7,1300,205,56,30,Zomato,1568
+R104,7,Healthy,3.5,3562,499,33,0,Zomato,1410
+R105,8,Pizza,3.0,1306,256,49,0,Swiggy,1004
+R106,5,Biryani,4.8,3426,197,54,30,Swiggy,1753
+R107,3,Desserts,4.0,3536,486,40,25,Zomato,1705
+R108,8,Biryani,4.0,3634,175,56,30,Zomato,1569
+R109,6,Desserts,4.3,1446,406,24,10,Swiggy,1758
+R110,3,Chinese,4.2,3687,157,38,40,Swiggy,2003
+R111,1,Chinese,4.8,3380,402,33,30,Swiggy,2071
+R112,3,Chinese,4.8,2753,452,45,20,Swiggy,1734
+R113,5,South Indian,4.6,520,205,23,30,Zomato,2045
+R114,3,Biryani,4.2,1403,675,44,0,Swiggy,1352
+R115,1,Desserts,4.5,2833,623,44,20,Zomato,1653
+R116,5,Pizza,4.3,2881,177,37,0,Zomato,1519
+R117,10,North Indian,4.1,407,227,59,5,Zomato,1104
+R118,7,Pizza,3.2,3069,365,27,15,Zomato,1647
+R119,7,North Indian,4.5,717,535,58,0,Swiggy,1153
+R120,9,Burgers,4.6,4518,514,59,20,Zomato,1525
+R121,10,Pizza,4.2,1195,675,33,5,Swiggy,1556
+R122,10,Healthy,4.6,4235,461,51,0,Swiggy,1369
+R123,3,Healthy,4.2,3769,156,57,10,Direct,1295
+R124,7,Momos,3.4,2795,152,52,30,Swiggy,1456
+R125,1,Biryani,3.5,589,512,42,15,Swiggy,1392
+R126,4,North Indian,3.4,2829,657,34,0,Zomato,1401
+R127,4,North Indian,3.7,4186,423,52,5,Swiggy,1287
+R128,5,Biryani,3.1,4885,655,44,10,Zomato,1391
+R129,7,South Indian,4.2,3825,164,36,25,Swiggy,1829
+R130,7,Momos,3.6,2558,341,52,5,Direct,1186
+R131,4,South Indian,4.2,2829,634,21,30,Zomato,2089
+R132,7,South Indian,3.7,974,177,33,5,Zomato,1423
+R133,3,South Indian,4.3,3006,188,59,10,Direct,1268
+R134,6,Biryani,3.6,1631,422,59,5,Swiggy,1061
+R135,2,South Indian,3.5,3374,380,58,10,Direct,1139
+R136,10,Healthy,3.9,4535,235,25,0,Swiggy,1657
+R137,9,Chinese,4.3,305,623,25,40,Zomato,2096
+R138,5,Burgers,3.7,4854,275,22,10,Swiggy,1830
+R139,6,North Indian,4.8,1888,686,26,10,Zomato,1892
+R140,4,North Indian,3.1,1994,294,27,15,Swiggy,1600
+R141,10,Burgers,3.8,59,674,34,10,Zomato,1466
+R142,7,Biryani,4.8,2921,361,48,10,Zomato,1589
+R143,9,Pizza,4.0,847,174,52,25,Direct,1438
+R144,7,Biryani,3.8,1065,543,49,40,Swiggy,1659
+R145,1,North Indian,4.1,1874,216,58,0,Zomato,1119
+R146,1,North Indian,4.1,4519,382,46,30,Zomato,1777
+R147,9,Burgers,4.4,3186,258,55,15,Swiggy,1435
+R148,9,South Indian,3.2,2243,295,48,25,Swiggy,1374
+R149,4,Biryani,3.5,273,260,57,20,Swiggy,1199
+R150,9,Desserts,4.1,4998,377,52,40,Zomato,1772
